@@ -1,5 +1,3 @@
-# Hello Devs 📓
-
 Welcome to my public developer log.  
 I document my progress, projects, learning experiences, and reflections as I build and improve my skills in software engineering, AI, and development tools.
 
