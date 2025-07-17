@@ -2,14 +2,12 @@ title: Kartik Sanil's Devlog
 description: My journey building projects, AI apps, and refining my craft in public.
 author: Kartik Sanil
 theme: minima
-baseurl: "" # Leave empty unless your site is in a subfolder
-url: "https://intscription.github.io/devlog" # Your GitHub Pages URL
+baseurl: "/devlog" # This is required because your site is served from /devlog
+url: "https://intscription.github.io"
 
-# Optional: Show posts in newest-first order if you use blog posts later
 paginate: 5
 paginate_path: "/page:num/"
 
-# Minima theme settings (optional tweaks)
 minima:
   social_links:
     github: https://github.com/IntScription
@@ -24,3 +22,6 @@ exclude:
   - .gitignore
   - .DS_Store
 
+# ✅ This is the missing piece
+include:
+  - logs
