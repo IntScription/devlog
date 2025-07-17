@@ -1,4 +1,5 @@
-<link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
 
 # Hello Devs 📓
 
