@@ -1,6 +1,6 @@
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/devlog/favicon.ico" type="image/x-icon">
 
-# Kartik Sanil's Devlog 📓
+# Hello Devs 📓
 
 Welcome to my public developer log.  
 I document my progress, projects, learning experiences, and reflections as I build and improve my skills in software engineering, AI, and development tools.
