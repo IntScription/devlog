@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Devlog - 2025-07-17
-permalink: /devlog/logs/2025-07-17/
+permalink: /logs/2025-07-17/
 ---
 
 # Devlog - 2025-07-17

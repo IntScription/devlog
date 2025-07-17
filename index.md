@@ -1,4 +1,4 @@
-<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+<link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
 
 # Hello Devs 📓
 
@@ -8,7 +8,7 @@ I document my progress, projects, learning experiences, and reflections as I bui
 ---
 
 ## 📅 Devlog Entries
-- [2025-07-17 — Devlog #1]({{ site.baseurl }}/logs/2025-07-17/)
+- [2025-07-17 — Devlog #1]({{site.baseurl}}/logs/2025-07-17/)
 <!-- Add new logs here as you go -->
 
 ---
