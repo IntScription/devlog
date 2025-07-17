@@ -8,7 +8,7 @@ I document my progress, projects, learning experiences, and reflections as I bui
 ---
 
 ## 📅 Devlog Entries
-- [2025-07-17 — Devlog #1](./logs/2025-07-17.md)
+- [2025-07-17 — Devlog #1](./logs/2025-07-17/)
 <!-- Add new logs here as you go -->
 
 ---
