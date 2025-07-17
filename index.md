@@ -1,0 +1,29 @@
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+# Kartik Sanil's Devlog 📓
+
+Welcome to my public developer log.  
+I document my progress, projects, learning experiences, and reflections as I build and improve my skills in software engineering, AI, and development tools.
+
+---
+
+## 📅 Devlog Entries
+- [2025-07-17 — Devlog #1](./logs/2025-07-17.md)
+<!-- Add new logs here as you go -->
+
+---
+
+## 🎯 Why This Devlog Exists
+I believe in **learning in public**.
+This devlog helps me:
+- Track my progress consistently
+- Reflect on my challenges and breakthroughs
+- Stay accountable to my personal and professional goals
+- Share my journey with others
+
+---
+
+## 🔗 Connect With Me
+- [GitHub](https://github.com/IntScription)
+- [YouTube](https://www.youtube.com/@idkythisisme)
+

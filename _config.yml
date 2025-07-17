@@ -1,0 +1,26 @@
+title: Kartik Sanil's Devlog
+description: My journey building projects, AI apps, and refining my craft in public.
+author: Kartik Sanil
+theme: minima
+baseurl: "" # Leave empty unless your site is in a subfolder
+url: "https://intscription.github.io/devlog" # Your GitHub Pages URL
+
+# Optional: Show posts in newest-first order if you use blog posts later
+paginate: 5
+paginate_path: "/page:num/"
+
+# Minima theme settings (optional tweaks)
+minima:
+  social_links:
+    github: https://github.com/IntScription
+    youtube: https://www.youtube.com/@idkythisisme
+
+sass:
+  style: compressed
+
+# Exclude files/folders from the generated site
+exclude:
+  - README.md
+  - .gitignore
+  - .DS_Store
+
