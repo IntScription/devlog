@@ -1,11 +1,17 @@
---- --- @import "minima";
+--- --- @import "minima"; // Optional: Keep minima if you want.
 
 body {
-  font-family: 'Fira Code', monospace;
   background-color: #0f1117;
   color: #dcdcdc;
+  font-family: 'Fira Code', monospace;
+}
+
+h1,
+h2,
+h3 {
+  color: #ff9800;
 }
 
 a {
-  color: #ff9800;
+  color: #80cbc4;
 }
