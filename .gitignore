@@ -1,6 +1,2 @@
 # maxOS system files
 .DS_Store
-node_modules/
-_site/
-.sass-cache/
-.jekyll-cache/
