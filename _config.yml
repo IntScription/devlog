@@ -2,7 +2,7 @@ title: IntScription
 description: My journey building projects, AI apps, and refining my craft in public.
 author: Kartik Sanil
 theme: minima
-baseurl: "/devlog" # This is required because your site is served from /devlog
+baseurl: "/devlog"
 url: "https://intscription.github.io"
 
 paginate: 5
@@ -12,7 +12,6 @@ minima:
   social_links:
     github: https://github.com/IntScription
     youtube: https://www.youtube.com/@idkythisisme
-  # ✅ This adds clean navbar links
   header_pages:
     - index.md
     - archive.md
@@ -27,4 +26,11 @@ exclude:
 
 include:
   - logs
+
+defaults:
+  - scope:
+      path: "logs"
+    values:
+      title: ""
+      sitemap: false
 
