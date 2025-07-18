@@ -28,6 +28,8 @@ permalink: /logs/2025-07-18/
   **HTML** → bones
   **CSS** → muscles & fibres
   **JS** → brain
+
+
 ## 🔥 What's Next
 - CS50 Harvard
 - Data Structures
