@@ -33,3 +33,10 @@ permalink: /logs/2025-07-18/
 - CS50 Harvard
 - Data Structures
 - Algorithms
+
+---
+
+<div class="nav-links">
+<a href="{{ site.baseurl }}/logs/2025-07-17/">← Previous</a>
+</div>
+
