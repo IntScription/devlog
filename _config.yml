@@ -12,16 +12,19 @@ minima:
   social_links:
     github: https://github.com/IntScription
     youtube: https://www.youtube.com/@idkythisisme
+  # ✅ This adds clean navbar links
+  header_pages:
+    - index.md
+    - archive.md
 
 sass:
   style: compressed
 
-# Exclude files/folders from the generated site
 exclude:
   - README.md
   - .gitignore
   - .DS_Store
 
-# ✅ This is the missing piece
 include:
   - logs
+
