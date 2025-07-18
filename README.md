@@ -20,6 +20,7 @@ This repo serves as my ongoing learning-in-public journal. I write daily or week
 
 ## Folder Structure
 
+```text 
 devlog/
 ├─ _layouts/       # Jekyll layout templates
 ├─ assets/         # Custom styles
@@ -29,6 +30,8 @@ devlog/
 ├─ index.md        # Main page
 ├─ _config.yml     # Jekyll config
 └─ README.md       # This file
+
+```
 
 ---
 
