@@ -9,7 +9,9 @@ permalink: /logs/2025-07-18/
 ## 🚀 What I Did
 - Had some fun on MonkeyType(like got 72 with 98% accuracy - not great score but getting there).
 - Used ChatGpt to get some info on different devlog options:
-   | Purpose           | Platform               |
+
+```text
+ | Purpose           | Platform               |
 | ----------------- | ---------------------- |
 | Quick updates     | X / Threads            |
 | Short visual logs | YouTube Shorts         |
@@ -17,8 +19,9 @@ permalink: /logs/2025-07-18/
 | Community         | Discord, IndieHackers  |
 | Portfolio Proof   | GitHub / Notion        |
 | Monetize          | Newsletter / Medium    |
+```
 
-## 🧠 What I Learned
+  ## 🧠 What I Learned
 - Did some updates to my person-website(it is a practice one)
 - Added unordered list(ul)
 - Also I'm using Scrimba(fullstack path) just to get a revision on the topics; it's been a long time so I need some practice.
