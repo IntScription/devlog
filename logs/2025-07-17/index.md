@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Devlog - 2025-07-17
 permalink: /logs/2025-07-17/
 ---
 
