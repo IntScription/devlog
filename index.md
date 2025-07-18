@@ -2,6 +2,7 @@
 layout: default
 title: Hello Devs 📓
 ---
+
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 Welcome to my public developer log.  
@@ -9,10 +10,11 @@ I document my progress, projects, learning experiences, and reflections as I bui
 
 ---
 
-## 📅 Devlog Entries
-- [2025-07-18 — Devlog #2](/devlog/logs/2025-07-18/)
+## 📅 Recent Devlog Entries
+- [2025-07-18 — Devlog #2]({{site.baseurl}}/logs/2025-07-18/)
 - [2025-07-17 — Devlog #1]({{site.baseurl}}/logs/2025-07-17/)
-<!-- Add new logs here as you go -->
+
+[→ See Full Archive]({{site.baseurl}}/archive/)
 
 ---
 
@@ -29,3 +31,4 @@ This devlog helps me:
 ## 🔗 Connect With Me
 - [GitHub](https://github.com/IntScription)
 - [YouTube](https://www.youtube.com/@idkythisisme)
+
