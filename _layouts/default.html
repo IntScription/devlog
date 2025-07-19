@@ -2,4 +2,23 @@
 layout: minima
 ---
 {% include head-custom.html %}
-{{ content }} 
+
+<header class="custom-header">
+  <div class="header-left">IntScription()</div>
+  <nav class="header-right">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/archive/' | relative_url }}">Archive</a>
+  </nav>
+</header>
+
+<main class="custom-main">
+  {{ content }}
+</main>
+
+<footer class="custom-footer">
+  <div class="footer-title">Connect With Me</div>
+  <ul class="footer-links">
+    <li><a href="https://github.com/IntScription" target="_blank">GitHub</a></li>
+    <li><a href="https://www.youtube.com/@idkythisisme" target="_blank">YouTube</a></li>
+  </ul>
+</footer> 
