@@ -4,6 +4,8 @@ title: Devlog Archive 📚
 permalink: /archive/
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
 # 📚 Devlog Archive
 
 All my devlog entries, neatly organized.
