@@ -19,11 +19,10 @@ int main(void){
 
 ## 🧠 What I Learned
 - It was simple but I wanted to understand the teminal workflow.
-- For compiling and running together, `gcc hello.c -o hello && ./hello`. 
+- For compiling and running together, `gcc hello.c -o hello && ./hello`.
 
 ## 🔥 What's Next
-- I'll work on full-stack. ; like the topic then what I did, what I learned and whats next.
-
+- I'll work on full-stack.
 ---
 
 <div class="nav-links">
