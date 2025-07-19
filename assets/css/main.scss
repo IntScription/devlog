@@ -1,20 +1,16 @@
---- 
---- 
-@import "minima";
-
 body {
-  background-color: #1a1b26;
+  background: #1a1b26;
   color: #c0caf5;
   font-family: 'Fira Code', monospace;
-  line-height: 1.6;
+  margin: 0;
+  line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: #7aa2f7;
-  font-weight: 700;
-  letter-spacing: 0.02em;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  font-weight: 700;
 }
 
 h1 {
@@ -24,31 +20,13 @@ h1 {
 }
 
 h2 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   border-left: 4px solid #7aa2f7;
   padding-left: 0.7rem;
 }
 
 h3 {
-  font-size: 1.2rem;
-}
-
-.wrapper, .page-content, .site-footer, .site-header {
-  background: #222436;
-  border-radius: 10px;
-  box-shadow: 0 2px 16px 0 #16161e44;
-  padding: 1.5rem 2rem;
-  margin-bottom: 2rem;
-}
-
-main.page-content > .wrapper {
-  background: #24283b;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #292e42;
-  margin: 2rem 0;
+  font-size: 1.1rem;
 }
 
 a {
@@ -62,32 +40,33 @@ a:hover {
 }
 
 code, pre {
-  background-color: #292e42;
+  background: #292e42;
   color: #c0caf5;
   border-radius: 4px;
+  padding: 0.2em 0.4em;
 }
 
 pre {
-  padding: 1rem;
-  border-radius: 6px;
+  padding: 1em;
   overflow-x: auto;
 }
 
 .site-header, .site-footer {
-  background: #1a1b26;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 2px 8px 0 #16161e22;
+  background: #16161e;
+  color: #7aa2f7;
+  padding: 1.2em 0;
+  text-align: center;
 }
 
 .site-title, .footer-heading {
-  color: #7aa2f7 !important;
-  font-family: 'Fira Code', monospace;
+  color: #7aa2f7;
   font-size: 1.5rem;
+  font-family: 'Fira Code', monospace;
 }
 
 .site-nav .page-link {
   color: #7dcfff;
-  margin-right: 1.2rem;
+  margin: 0 1em;
   font-weight: 500;
 }
 
@@ -95,16 +74,31 @@ pre {
   color: #bb9af7;
 }
 
+.wrapper, .page-content {
+  max-width: 800px;
+  margin: 2em auto;
+  background: #222436;
+  border-radius: 10px;
+  box-shadow: 0 2px 16px 0 #16161e44;
+  padding: 2em;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #292e42;
+  margin: 2em 0;
+}
+
 ul, ol {
-  margin-left: 2rem;
+  margin-left: 2em;
 }
 
 blockquote {
   background: #292e42;
   color: #c0caf5;
   border-left: 4px solid #7aa2f7;
-  margin: 1.5rem 0;
-  padding: 1rem 1.5rem;
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
   border-radius: 6px;
   font-style: italic;
 }
@@ -112,13 +106,12 @@ blockquote {
 .nav-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 2rem;
+  margin-top: 2em;
   font-size: 0.9rem;
 }
 
 .nav-links a {
   color: #7dcfff;
-  text-decoration: none;
 }
 
 .nav-links a:hover {
