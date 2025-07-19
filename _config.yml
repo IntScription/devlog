@@ -5,6 +5,9 @@ theme: minima
 baseurl: "/devlog"
 url: "https://intscription.github.io"
 
+plugins:
+  - jekyll-paginate
+
 paginate: 5
 paginate_path: "/page:num/"
 
