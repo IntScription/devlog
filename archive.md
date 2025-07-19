@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Devlog Archive 📚
+- [2025-07-19 — Devlog #3](/devlog/logs/2025-07-19/)
 permalink: /archive/
 ---
 
