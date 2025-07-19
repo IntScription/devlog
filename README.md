@@ -5,16 +5,17 @@ Welcome to my public developer log — a space where I document my daily progres
 You can visit the live site here:
 🔗[IntScription](https://intscription.github.io/devlog/)
 
-🚀 What is This?
-This repo serves as my ongoing learning-in-public journal. I write daily or weekly logs about:
+---
 
-🛠️ Programming & Full-Stack Development
+## ✨ Features
 
-🤖 AI / Machine Learning
-
-💡 New tools, workflows, or experiments
-
-🐛 Mistakes & Lessons Learned
+- **Dark/Light Mode Toggle** — Instantly switch between beautiful dark and light themes with a single click (icon in the header).
+- **Live Typing Effect** — The home screen welcome message is animated with a live typing effect for a modern, dynamic feel.
+- **Modern Navigation** — Clean, always-visible navigation for Home and Archive, with a sticky header and responsive design.
+- **Beautiful Tables** — All markdown tables are styled for clarity, contrast, and mobile-friendliness.
+- **Syntax Highlighting** — Code blocks are colored by language, supporting both dark and light modes.
+- **Responsive & Accessible** — Looks great on desktop, tablet, and mobile.
+- **Connect With Me** — Footer links to GitHub and YouTube.
 
 ---
 
@@ -25,10 +26,20 @@ devlog/
 ├─ logs/           # Daily devlog entries
 │   ├─ 2025-07-17/
 │   │   └─ index.md
-├─ index.md        # Main page
+│   ├─ 2025-07-18/
+│   │   └─ index.md
+│   └─ ...
+├─ index.md        # Main page (with live typing effect)
+├─ assets/
+│   ├─ css/
+│   │   └─ main.scss   # All custom styles (dark/light, tables, code, etc.)
+│   └─ js/
+│       ├─ theme-toggle.js   # Dark/light mode toggle logic
+│       └─ typed-home.js     # Live typing effect for home screen
+├─ _layouts/
+│   └─ default.html   # Custom layout with modern header/footer
 ├─ _config.yml     # Jekyll config
 └─ README.md       # This file
-
 ```
 
 ---
@@ -38,3 +49,14 @@ devlog/
 - Written entirely in [Neovim](https://github.com/IntScription/dotfiles/tree/main/config/nvim).
 - Managed with git and lazygit.
 - Hosted via GitHub Pages.
+
+---
+
+## 🚀 Quick Start (Local Dev)
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+Then visit [http://localhost:4000/devlog/](http://localhost:4000/devlog/) in your browser.
