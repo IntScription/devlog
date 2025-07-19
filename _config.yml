@@ -20,6 +20,7 @@ minima:
     - archive.md
 
 sass:
+  sass_dir: assets/css
   style: compressed
 
 exclude:
