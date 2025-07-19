@@ -20,10 +20,8 @@ This repo serves as my ongoing learning-in-public journal. I write daily or week
 
 ## Folder Structure
 
-```text 
+```text
 devlog/
-├─ _layouts/       # Jekyll layout templates
-├─ assets/         # Custom styles
 ├─ logs/           # Daily devlog entries
 │   ├─ 2025-07-17/
 │   │   └─ index.md
