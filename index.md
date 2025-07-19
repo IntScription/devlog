@@ -15,7 +15,7 @@ I document my progress, projects, learning experiences, and reflections as I bui
 - [2025-07-18 — Devlog #2]({{site.baseurl}}/logs/2025-07-18/)
 - [2025-07-17 — Devlog #1]({{site.baseurl}}/logs/2025-07-17/)
 
-[→ See Full Archive]({{ site.baseurl }}/archive/)
+[→ See Full Archive]({{site.baseurl}}/archive/)
 
 ---
 
