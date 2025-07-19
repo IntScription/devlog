@@ -9,6 +9,8 @@ permalink: /logs/2025-07-18/
 - Had some fun on MonkeyType(like got 72 with 98% accuracy - not great score but getting there).
 - Used ChatGpt to get some info on different devlog options:
 
+<div class="table-responsive">
+
 | Purpose          | Platform               |
 | ---------------- | ---------------------- |
 | Quick updates     | X / Threads            |
@@ -17,6 +19,8 @@ permalink: /logs/2025-07-18/
 | Community         | Discord, IndieHackers  |
 | Portfolio Proof   | GitHub / Notion        |
 | Monetize          | Newsletter / Medium    |
+
+</div>
 
 ## 🧠 What I Learned
 - Updated my **personal website** (practice project).
