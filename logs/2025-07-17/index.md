@@ -23,7 +23,6 @@ int main(void){
 
 ## 🔥 What's Next
 - I'll work on full-stack.
----
 
 <div class="nav-links">
 <a href="{{ site.baseurl }}/logs/2025-07-18/">Next →</a>

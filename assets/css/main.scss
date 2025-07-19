@@ -260,7 +260,7 @@ blockquote {
 }
 
 /* Modern, visually appealing markdown table styles */
-table {
+.table-responsive, table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
@@ -302,31 +302,23 @@ table {
   border-radius: 12px;
   overflow: hidden;
 }
+/* Responsive: horizontal scroll for tables on small screens */
 @media (max-width: 700px) {
-  table, thead, tbody, th, td, tr {
+  .custom-main table {
     display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px 0 #16161e22;
   }
-  thead {
-    display: none;
+  .custom-main thead, .custom-main tbody, .custom-main th, .custom-main td, .custom-main tr {
+    display: table;
+    width: 100%;
   }
-  tr {
-    margin-bottom: 1.2em;
-    border-radius: 8px;
-    box-shadow: 0 1px 6px 0 #16161e11;
-    background: var(--bg-alt);
-  }
-  td {
-    padding: 0.7em 1em;
-    border: none;
-    position: relative;
-    font-size: 1em;
-  }
-  td:before {
-    content: attr(data-label);
-    font-weight: 700;
-    color: var(--accent);
-    display: block;
-    margin-bottom: 0.3em;
+  .custom-main th, .custom-main td {
+    min-width: 120px;
+    white-space: nowrap;
   }
 }
 
