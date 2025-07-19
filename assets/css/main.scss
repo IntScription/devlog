@@ -258,6 +258,78 @@ blockquote {
   color: var(--nav-btn-hover-text);
   box-shadow: 0 4px 16px 0 var(--accent)44;
 }
+
+/* Modern, visually appealing markdown table styles */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 2em 0;
+  background: var(--bg-alt);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 #16161e22;
+  overflow: hidden;
+}
+thead {
+  background: var(--accent);
+  color: var(--nav-btn-hover-text);
+}
+thead th {
+  padding: 0.9em 1.2em;
+  font-size: 1.08em;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 2px solid var(--border);
+}
+tbody tr {
+  transition: background 0.2s;
+}
+tbody tr:nth-child(even) {
+  background: var(--bg);
+}
+tbody tr:nth-child(odd) {
+  background: var(--bg-alt);
+}
+td {
+  padding: 0.8em 1.2em;
+  border-bottom: 1px solid var(--border);
+  font-size: 1em;
+}
+tbody tr:last-child td {
+  border-bottom: none;
+}
+table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+@media (max-width: 700px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  thead {
+    display: none;
+  }
+  tr {
+    margin-bottom: 1.2em;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px 0 #16161e11;
+    background: var(--bg-alt);
+  }
+  td {
+    padding: 0.7em 1em;
+    border: none;
+    position: relative;
+    font-size: 1em;
+  }
+  td:before {
+    content: attr(data-label);
+    font-weight: 700;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 0.3em;
+  }
+}
+
 @media (max-width: 700px) {
   .custom-header, .custom-footer {
     padding-left: 1em;
