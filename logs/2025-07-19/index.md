@@ -52,5 +52,5 @@ _includes/
 
 <div class="nav-links">
 <a href="{{ site.baseurl }}/logs/2025-07-18/">← Previous</a>
-
+<a href="{{ site.baseurl }}/logs/2025-07-20/">Next →</a>
 </div>
