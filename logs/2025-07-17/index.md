@@ -3,6 +3,8 @@ layout: default
 permalink: /logs/2025-07-17/
 ---
 
+# Devlog - 2025-07-17
+
 ## 🚀 What I Did
 - Started with CS50(Computer Science course by Harvard).
 - Helped me on the revision for C-language.
