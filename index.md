@@ -5,8 +5,7 @@ title: Hello Devs 📓
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-Welcome to my public developer log.
-I document my progress, projects, learning experiences, and reflections as I build and improve my skills in software engineering, AI, and development tools.
+<span id="typed-welcome">Welcome to my public developer log. I document my progress, projects, learning experiences, and reflections as I build and improve my skills in software engineering, AI, and development tools.</span>
 
 ---
 
