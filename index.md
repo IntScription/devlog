@@ -26,9 +26,3 @@ This devlog helps me:
 - Reflect on my challenges and breakthroughs
 - Stay accountable to my personal and professional goals
 - Share my journey with others
-
----
-
-## 🔗 Connect With Me
-- [GitHub](https://github.com/IntScription)
-- [YouTube](https://www.youtube.com/@idkythisisme)
