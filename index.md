@@ -5,12 +5,14 @@ title: Hello Devs 📓
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<span id="typed-welcome"></span>
+Welcome to my public developer log.
+I document my progress, projects, learning experiences, and reflections as I build and improve my skills in software engineering, AI, and development tools.
 
 ---
 
 ## 📅 Recent Devlog Entries
-- [2025-07-19 — Devlog #3](/devlog/logs/2025-07-19/)
+- [2025-07-20 — Devlog #4]({{ site.baseurl }}/logs/2025-07-20/)
+- [2025-07-19 — Devlog #3]({{site.baseurl}}/logs/2025-07-19/)
 - [2025-07-18 — Devlog #2]({{site.baseurl}}/logs/2025-07-18/)
 - [2025-07-17 — Devlog #1]({{site.baseurl}}/logs/2025-07-17/)
 
@@ -25,3 +27,9 @@ This devlog helps me:
 - Reflect on my challenges and breakthroughs
 - Stay accountable to my personal and professional goals
 - Share my journey with others
+
+---
+
+## 🔗 Connect With Me
+- [GitHub](https://github.com/IntScription)
+- [YouTube](https://www.youtube.com/@idkythisisme)
