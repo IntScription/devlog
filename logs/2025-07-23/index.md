@@ -30,6 +30,6 @@ permalink: /logs/2025-07-23/
 ---
 
 <div class="nav-links">
-
+<a href="{{ site.baseurl }}/logs/2025-07-20/">← Previous</a>
 
 </div>
