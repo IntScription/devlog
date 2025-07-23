@@ -12,4 +12,4 @@ Welcome to my notes collection! Click any note to read.
   {% for note in notes %}
     <li><a href="{{ note.path | relative_url }}">{{ note.name | replace: '.md', '' }}</a></li>
   {% endfor %}
-</ul> 
+</ul>
