@@ -14,11 +14,11 @@ permalink: /logs/2025-07-24/
 - Theory part in full-stack.
 
 ## 🔥 What's Next
-- Data Structures and Alogrithms.
+- Data Structures and Algorithms.
 
 ---
 
 <div class="nav-links">
-
+<a href="{{ site.baseurl }}/logs/2025-07-23/">← Previous</a>
 
 </div>
