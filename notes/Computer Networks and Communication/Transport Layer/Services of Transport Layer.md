@@ -7,7 +7,7 @@ tags:
 - Sending the message from one process to another process
 - Also called end-to-end or port-to-port communication
 - It uses a port number (16-bit address) to deliver the segmented data to the correct process
- ![[Process-to-process.png]]
+ ![Process-to-process.png](Process-to-process.png)
 
 ## Reliability
 
@@ -25,7 +25,7 @@ tags:
 
 - Transport layer at source performs multiplexing
 - Transport layer at destination performs demultiplexing
- ![[Multiplexing and Demultiplexing.png]]
+ ![Multiplexing and Demultiplexing.png](Multiplexing-and-Demultiplexing.png)
 
 ## Error Control
 

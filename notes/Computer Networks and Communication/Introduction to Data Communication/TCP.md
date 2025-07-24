@@ -6,7 +6,7 @@ tags:
 - Developed by ARPANET
 - Support client-server and peer-to-peer
 
-![[TCP.png]]
+![TCP.png](TCP.png)
 
 ## 1. Physical Layer
 

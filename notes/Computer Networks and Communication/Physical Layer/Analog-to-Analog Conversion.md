@@ -5,16 +5,16 @@ tags:
 ## Amplitude Modulation (AM)
 
 - Frequency and phase remain same, only amplitude changes
- ![[AM.png]]
+ ![AM.png](AM.png)
 
 ## Frequency Modulation (FM)
 
 - Amplitude and phase remain same, only frequency changes
- ![[FM.png]]
+ ![FM.png](FM.png)
 
 ## Phase Modulation (PM)
 
 - Frequency and amplitude remain same, only phase changes
- ![[PM.png]]
+ ![PM.png](PM.png)
 ---
-[[Analog-to-Digital Conversion]]
+[Analog-to-Digital Conversion](Analog-to-Digital-Conversion)

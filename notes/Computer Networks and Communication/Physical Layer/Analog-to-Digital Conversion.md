@@ -10,7 +10,7 @@ tags:
 - Efficiency of transmitter is high
 - Higher noise immunity is seen
 - Used in telephony and compact disks
- ![[PCM.png]]
+ ![PCM.png](PCM.png)
  
 ## Delta Modulation
 
@@ -19,6 +19,6 @@ tags:
 - It is a 1-bit quantizer
 - Modulator and demodulator can be assigned easily
 - Bit rate can be designed by user
- ![[Delta Modulation.png]]
+ ![Delta Modulation.png](Delta-Modulation.png)
 
-[[Digital-to-Analog Conversion]]
+[Digital-to-Analog Conversion](Digital-to-Analog-Conversion)

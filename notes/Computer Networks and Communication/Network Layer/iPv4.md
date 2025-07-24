@@ -10,7 +10,7 @@ tags:
 
 ### Header Diagram
  
-![[iPv4.png]]
+![iPv4.png](iPv4.png)
 #### Explanation :
 
 1. VER(Version): 
@@ -45,7 +45,7 @@ tags:
 
 ### Class Ranges
 
-![[Class Range.png]]
+![Class Range.png](Class-Range.png)
 
 - Class A (0-127 bytes)
 - Class B (128-191 bytes)

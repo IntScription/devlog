@@ -3,6 +3,6 @@ tags:
   - programming
   - bootstrap
 ---
-[[Bootstrap Introduction]]
-[[Bootstrap Grids]]
-[[Typography]]
+[Bootstrap Introduction](Bootstrap-Introduction)
+[Bootstrap Grids](Bootstrap-Grids)
+[Typography](Typography)

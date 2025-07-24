@@ -128,7 +128,7 @@ div { 
 
 ### Animation Name
 
-The `animation-name` property specifies a name for the [[@keyframes Rule]] animation.
+The `animation-name` property specifies a name for the [@keyframes Rule](@keyframes-Rule) animation.
 
 #### Property Values
 

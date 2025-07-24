@@ -5,7 +5,7 @@ tags:
 ## Amplitude Shift Keying (ASK)
 
 - Here amplitude is varied keeping frequency and phase constant
-  ![[ASK.png]]
+  ![ASK.png](ASK.png)
 
 ### 1. BASK (Binary Amplitude Shift Keying)
 
@@ -20,7 +20,7 @@ tags:
 ## Frequency Shift Keying (FSK)
 
 - Here frequency is varied keeping amplitude and phase constant
- ![[FSK.png]]
+ ![FSK.png](FSK.png)
 
 ### Binary FSK
 
@@ -30,7 +30,7 @@ tags:
 ## Phase Shift Keying (PSK)
 
 - Here phase is varied keeping frequency and amplitude constant
- ![[PSK.png]]
+ ![PSK.png](PSK.png)
 
 ### Binary PSK
 

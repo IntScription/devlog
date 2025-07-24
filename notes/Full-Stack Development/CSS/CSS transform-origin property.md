@@ -9,7 +9,7 @@ tags:
 - 2D transformations can change the x- and y-axis of an element. 3D transformations can also change the z-axis of an element.
 - The `transform-origin` property is used to set the point around which a CSS transformation is applied. For example, when performing a `rotate`, the `transform-origin` determines around which point the element is rotated.
 
-**Note:** This property must be used together with the [[Transform Property]].
+**Note:** This property must be used together with the [Transform Property](Transform-Property).
 
 ## Property Values
 

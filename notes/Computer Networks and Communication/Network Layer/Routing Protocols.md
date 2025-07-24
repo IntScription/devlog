@@ -15,7 +15,7 @@ tags:
 ## Unicast Routing Protocols
 
 1. RIP (Routing Information Protocol) - uses distance vector algorithm (Bellman-Ford)
-2. [[OSPF (Open Shortest Path First)]] - uses link state algorithm (Dijkstra's Algorithm)
+2. [OSPF (Open Shortest Path First)](OSPF-(Open-Shortest-Path-First)) - uses link state algorithm (Dijkstra's Algorithm)
 3. BGP (Border Gateway Protocol) - uses path vector algorithm 
 
 ### OSPF

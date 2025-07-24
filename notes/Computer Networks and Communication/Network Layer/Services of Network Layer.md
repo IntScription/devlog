@@ -5,12 +5,12 @@ tags:
 ## 1. Packetizing
 
 - Process of encapsulating the data received from the upper-layers of the network (called payload)
- ![[Packetizing.png]]
+ ![Packetizing.png](Packetizing.png)
 
 ## 2. Routing
 
 - Process of moving data from one device to another
- ![[Routing.png]]
+ ![Routing.png](Routing.png)
 
 ## 3. Error Control
 

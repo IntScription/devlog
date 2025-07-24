@@ -2,7 +2,7 @@
 tags:
   - cnc
 ---
-![[Components of Data Communication.png]]
+![Components of Data Communication.png](Components-of-Data-Communication.png)
 
 ## 1. Message 
 

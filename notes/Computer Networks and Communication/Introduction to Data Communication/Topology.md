@@ -10,7 +10,7 @@ tags:
 
 - All devices are interconnected (each node is connected to every other node)
 - For eg: 4 devices are interconnected then the number of cables are 6
-  ![[Mesh Topology.png]]
+  ![Mesh Topology.png](Mesh-Topology.png)
   $$Cables = n*(n-1) / 2$$
   $$Ports = n*(n - 1)$$
   - Highest reliability compared to other topology
@@ -28,13 +28,13 @@ tags:
 - Cost is normal or genuine (compared to mesh it is low)
 - Security is low (since it broadcasts the message)
  
-![[Hub Topology.png]]
+![Hub Topology.png](Hub-Topology.png)
 
 - Also a point-to-point communication (direct communication)
 
 ## 3. Bus Topology
 
-![[Bus Topology.png]]
+![Bus Topology.png](Bus-Topology.png)
 
 - Number of Cables = n + 1
 - The horizontal line is called as 'Backbone Cable'
@@ -48,7 +48,7 @@ tags:
 ## 4. Ring Topology
 
 - In simple words its the end-to-end connection of the bus topology
- ![[Ring Topology.png]]
+ ![Ring Topology.png](Ring-Topology.png)
 - Number of Cables = n + 1
 - Number of Ports = n
 - Less reliable (single point of failure)

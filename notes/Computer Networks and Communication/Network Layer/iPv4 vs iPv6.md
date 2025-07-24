@@ -2,7 +2,7 @@
 tags:
   - cnc
 ---
-## [[iPv4]]
+## [iPv4](iPv4)
 
 - Has a 32-bit address length
 - It supports manual and DHCP address configuration

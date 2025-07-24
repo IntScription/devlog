@@ -3,7 +3,7 @@ tags:
   - cnc
 ---
 - It is a standard protocol provided by TCP/IP for copying a file from one host to another
- ![[File Transfer Protocol.png]]
+ ![File Transfer Protocol.png](File-Transfer-Protocol.png)
 
 - Port number 20 (DATA) and 21 (Control)
 - Data connection is non-persistent (for security purpose)

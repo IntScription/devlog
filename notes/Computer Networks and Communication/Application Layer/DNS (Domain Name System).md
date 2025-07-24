@@ -12,7 +12,7 @@ tags:
 
 ## Types of Domains
 
-![[_attach/CNC/Domain Name System/DNS.png]]
+![_attach/CNC/Domain Name System/DNS.png](_attach/CNC/Domain-Name-System/DNS.png)
 
 ### 1. Generic Domain 
 
@@ -28,7 +28,7 @@ tags:
 - Sends query to DNS server
 ---
 
-![[DNS 1.png]]
+![DNS 1.png](DNS-1.png)
 
 ## DNS Server
 

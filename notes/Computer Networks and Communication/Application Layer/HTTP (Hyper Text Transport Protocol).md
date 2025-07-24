@@ -34,12 +34,12 @@ tags:
 - Deletes the data from server
 
 ---
-![[HTTP Methods.png]]
+![HTTP Methods.png](HTTP-Methods.png)
 
 ---
 ## HTTP Header Fields
 
-![[HTTP header.png]]
+![HTTP header.png](HTTP-header.png)
 
 ### General 
 
@@ -90,12 +90,12 @@ tags:
 - Server failed to fulfil an apparent valid request
 
 
-![[Status Codes.png]]
+![Status Codes.png](Status-Codes.png)
 
 ---
 ## Requests and Response
 
-![[Request and Response.png]]
+![Request and Response.png](Request-and-Response.png)
 
 - Communication between clients and servers is done through **Request and Response**
 

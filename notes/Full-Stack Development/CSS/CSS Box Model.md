@@ -5,7 +5,7 @@ tags:
 ---
 - Is a container that contains multiple properties including borders, margins, padding, and the content itself
 
-![[CSS Box Model.png]]
+![CSS Box Model.png](CSS-Box-Model.png)
 
 - **Content Area:** This area consists of content like text, images, or other media content. It is bounded by the content edge and its dimensions are given by content-box width and height.
 - **Padding Area:** It includes the element’s padding. This area is actually the space around the content area and within the border-box. Its dimensions are given by the width of the padding-box and the height of the padding-box.

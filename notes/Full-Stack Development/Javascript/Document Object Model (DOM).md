@@ -7,7 +7,7 @@ When a web page is loaded, the browser creates a **Document Object  Model** o
 
 The **HTML DOM** model is constructed as a tree of **Objects**:
 
-![[DOM tree.png]]
+![DOM tree.png](DOM-tree.png)
 
 With the object model, JavaScript gets all the power it needs to create dynamic HTML:
 

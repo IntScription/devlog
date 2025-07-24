@@ -3,6 +3,6 @@ layout: note
 tags:
   - cybersecurity
 ---
-## [[Foundations]]
-[[Manage-Security-Risks]]
+## [Foundations](Foundations)
+[Manage-Security-Risks](Manage-Security-Risks)
 

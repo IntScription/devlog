@@ -373,7 +373,7 @@ return {
         end,
       })
       -- load the colorscheme here
-      vim.cmd([[colorscheme tokyonight]])
+      vim.cmd([colorscheme tokyonight](colorscheme-tokyonight))
     end,
   },
 }
@@ -571,7 +571,7 @@ return {
     alpha.setup(dashboard.opts)
 
     -- Disable folding on alpha buffer
-    vim.cmd([[autocmd FileType alpha setlocal nofoldenable]])
+    vim.cmd([autocmd FileType alpha setlocal nofoldenable](autocmd-FileType-alpha-setlocal-nofoldenable))
   end,
 }
 ```

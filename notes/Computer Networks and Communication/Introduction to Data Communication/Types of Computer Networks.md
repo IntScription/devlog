@@ -16,7 +16,7 @@ tags:
 ## 2. LAN (Local Area Network)
 
 - Range is up to 2 km
-- Tech - [[Ethernet]] and Wi-Fi
+- Tech - [Ethernet](Ethernet) and Wi-Fi
 - Transmission speed is very high
 - Area - within office building
 - Ownership is private

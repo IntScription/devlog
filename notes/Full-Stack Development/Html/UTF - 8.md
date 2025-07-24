@@ -10,6 +10,6 @@ tags:
 - Lets you represent characters as ASCII text, while still allowing for international characters, such as Chinese characters
 - Translates numbers into binary
 
-![[Unicode Character Set.png]]
+![Unicode Character Set.png](Unicode-Character-Set.png)
 
 ---

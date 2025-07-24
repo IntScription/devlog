@@ -63,7 +63,7 @@ Some of the most common types of phishing attacks today include: 
 
 ## Certified Information Systems Security Professional (CISSP)
 
-![[CSSIP.png]]
+![CSSIP.png](CSSIP.png)
 
 - It is an autonomous data security certification given by the International Information System Security Certification Consortium, which is also known as the (ISC)².
 

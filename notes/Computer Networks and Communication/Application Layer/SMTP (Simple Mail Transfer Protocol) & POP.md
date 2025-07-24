@@ -8,7 +8,7 @@ tags:
 - Port 995 - this is the port you need to use if you want to connect using POP3 securely
 - MIME (Multipurpose Internet Mail Extensions)
 
-![[SMTP.png]]
+![SMTP.png](SMTP.png)
 
 - At first a mail Client comes in, they fetch information from user (their mails)
 - This mail goes to MTA (Mail Transfer Agent)

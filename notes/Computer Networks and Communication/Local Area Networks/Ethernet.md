@@ -11,7 +11,7 @@ tags:
 
 ## Frame Format
 
-![[Ethernet.png]]
+![Ethernet.png](Ethernet.png)
 
 ### Preamble 
 
