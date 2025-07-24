@@ -1,4 +1,5 @@
 ---
+layout: note
 tags:
   - java
   - programming
