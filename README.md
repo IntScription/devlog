@@ -29,6 +29,18 @@ devlog/
 │   ├─ 2025-07-18/
 │   │   └─ index.md
 │   └─ ...
+├─ notes/           # Personal notes, organized by topic/folder
+│   ├─ Computer Networks and Communication/
+│   ├─ Git/
+│   ├─ Java/
+│   ├─ Full-Stack Development/
+│   ├─ Google Cybersecurity/
+│   └─ ...
+│
+│   # Each folder contains Markdown notes, which are grouped and listed on the Notes index page
+│   # To add new notes, place a .md file in the appropriate folder
+│
+│   # The Notes section is accessible from the site header and is organized by these folders
 ├─ index.md        # Main page (with live typing effect)
 ├─ assets/
 │   ├─ css/
@@ -60,3 +72,12 @@ bundle exec jekyll serve
 ```
 
 Then visit [http://localhost:4000/devlog/](http://localhost:4000/devlog/) in your browser.
+
+---
+
+## 📝 Notes Section
+
+- All notes are organized by topic in the `notes/` directory (see above).
+- The Notes index page automatically groups notes by folder (e.g., Java, Git, Full-Stack Development, etc.).
+- To add a new note, simply add a Markdown file to the appropriate folder in `notes/`.
+- The Notes section is accessible from the site header navigation.
