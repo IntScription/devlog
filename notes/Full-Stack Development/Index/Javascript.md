@@ -1,7 +1,9 @@
 ---
 tags:
-  - javascript
-  - programming
+  
+- javascript
+  
+- programming
 ---
 [Introduction](Full-Stack-Development/Javascript/Introduction)
 [The Prototype](The-Prototype)

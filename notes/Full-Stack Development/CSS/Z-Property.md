@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 The `z-index` property specifies the stack order of an element.
 

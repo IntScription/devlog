@@ -1,7 +1,9 @@
 ---
 tags:
-  - programming
-  - html-css
+  
+- programming
+  
+- html-css
 ---
 ## What is CSS ?
 
@@ -46,7 +48,8 @@ ul {
 ```css
 .example {
   margin: 10px;
-  width: calc(100% - 20px);
+  width: calc(100% 
+- 20px);
 }
 ```
 

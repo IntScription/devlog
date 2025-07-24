@@ -1,7 +1,8 @@
 ---
 layout: note
 tags:
-  - cnc
+  
+- cnc
 ---
 ## 1. Introduction to Data Communication
 

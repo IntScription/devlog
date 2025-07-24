@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 The `position` property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
 
@@ -108,7 +110,8 @@ div.absolute {  
 
 An element with `position: sticky;` is positioned based on the user's scroll position.
 
-A sticky element toggles between `relative` and `fixed`, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
+A sticky element toggles between `relative` and `fixed`, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport 
+- then it "sticks" in place (like position:fixed).
 
 #### Example:
 

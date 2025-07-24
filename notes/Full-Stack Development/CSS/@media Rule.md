@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 Certain types of motion-based animations can cause discomfort for some users. In particular, people with vestibular disorders have sensitivity to certain motion triggers.
 

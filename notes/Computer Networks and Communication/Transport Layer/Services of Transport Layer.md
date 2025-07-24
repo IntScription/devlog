@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 ## Process-to-Process Communication
 

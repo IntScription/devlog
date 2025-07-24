@@ -1,11 +1,14 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 - Tables allow you to create two-dimensional tables made of rows and columns
 
-" `<table></table>` " - Table tag
+" `<table></table>` " 
+- Table tag
 
 
 ## What is a table ?

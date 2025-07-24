@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 ## What is it ?
 

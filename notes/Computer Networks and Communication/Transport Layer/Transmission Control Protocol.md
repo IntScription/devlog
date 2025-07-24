@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 - TCP is a connection-oriented transfer layer protocol and a most commonly used protocol
 - Uses a combination of the Go-Back-N (GBN) and Selective-Repeat (SR) protocols to provide reliability

@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 ## What is Topology ?
 
@@ -12,12 +13,18 @@ tags:
 - For eg: 4 devices are interconnected then the number of cables are 6
   ![Mesh Topology.png](Mesh-Topology.png)
   $$Cables = n*(n-1) / 2$$
-  $$Ports = n*(n - 1)$$
-  - Highest reliability compared to other topology
-  - Cost increases when multiple devices are connected due to the increase in number of cables
-  - Provides security (eg: we may not know how 'A' communicates with 'D')
-  - Maintenance is high
-  - Supports point-to-point communication (also known as dedicated communication, like 'LAN')
+  $$Ports = n*(n 
+- 1)$$
+  
+- Highest reliability compared to other topology
+  
+- Cost increases when multiple devices are connected due to the increase in number of cables
+  
+- Provides security (eg: we may not know how 'A' communicates with 'D')
+  
+- Maintenance is high
+  
+- Supports point-to-point communication (also known as dedicated communication, like 'LAN')
 
 ## 2. Hub Topology
 
@@ -41,7 +48,8 @@ tags:
 - Number of Ports = n
 - No reliability (since there is a single point of failure)
 - No security (since the cable cannot decide / filter the information, only a switch  or router can)
-- Cost - cheap
+- Cost 
+- cheap
 - Terminator or Repeater in the ends of the cable(it increase the signal strength so it can cover more distances)
 - This is a multi-point (here collision rate is also high = 'n')
 
@@ -53,9 +61,11 @@ tags:
 - Number of Ports = n
 - Less reliable (single point of failure)
 - No security
-- Cost - cheap
+- Cost 
+- cheap
 - It is uni-directional (we use token ring to reduce collision)
 
-#### NOTE :- 'n' means Node
+#### NOTE :
+- 'n' means Node
 ---
 

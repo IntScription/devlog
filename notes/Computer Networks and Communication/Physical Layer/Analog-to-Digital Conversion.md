@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 ## Pulse Code Modulation (PCM)
 

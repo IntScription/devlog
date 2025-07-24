@@ -3,7 +3,9 @@
 ### Exiting
 
 |                |                               |
-| -------------- | ----------------------------- |
+| -------------
+- | ----------------------------
+- |
 | `:q`           | Close file                    |
 | `:qa`          | Close all files               |
 | `:w`           | Save                          |
@@ -14,7 +16,9 @@
 ### Exiting insert mode
 
 |                   |                                             |
-| ----------------- | ------------------------------------------- |
+| ----------------
+- | ------------------------------------------
+- |
 | `Esc` _/_ `<C-[>` | Exit insert mode                            |
 | `<C-C>`           | Exit insert mode, and abort current command |
 
@@ -24,7 +28,9 @@
 ### Editing
 
 |         |                                     |
-| ------- | ----------------------------------- |
+| ------
+- | ----------------------------------
+- |
 | `a`     | Append                              |
 | `A`     | Append from end of line             |
 | `i`     | Insert                              |
@@ -61,7 +67,9 @@
 #### In visual mode
 
 |             |                         |
-| ----------- | ----------------------- |
+| ----------
+- | ----------------------
+- |
 | `d` _/_ `x` | Delete selection        |
 | `s`         | Replace selection       |
 | `y`         | Yank selection _(Copy)_ |
@@ -93,7 +101,9 @@
 ### Line
 
 |              |                                    |
-| ------------ | ---------------------------------- |
+| -----------
+- | ---------------------------------
+- |
 | `0` _(zero)_ | Start of line                      |
 | `^`          | Start of line _(after whitespace)_ |
 | `$`          | End of line                        |
@@ -217,7 +227,9 @@ Text objects let you operate (with an _operator_) in or around text blocks (_ob
 ### Diff
 
 |                                |                                       |
-| ------------------------------ | ------------------------------------- |
+| -----------------------------
+- | ------------------------------------
+- |
 | `gvimdiff file1 file2 [file3]` | See differences between files, in HMI |
 
 ---

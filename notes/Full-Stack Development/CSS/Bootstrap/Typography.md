@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 ## Bootstrap's Default Settings
 
@@ -59,7 +61,9 @@ The classes for text colours are:`.text-muted`, `.text-primary`, `.text-succes
 The Bootstrap classes below can be added to style HTML elements further:
 
 | Class              | Description                                                                                                                                                                                                                                                     |
-| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -----------------
+- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- |
 | `.lead`            | Makes a paragraph stand out                                                                                                                                                                                                                                     |
 | `.small`           | Indicates smaller text (set to 85% of the size of the parent)                                                                                                                                                                                                   |
 | `.text-left`       | Indicates left-aligned text                                                                                                                                                                                                                                     |

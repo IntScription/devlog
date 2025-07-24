@@ -1,7 +1,8 @@
 ---
 layout: note
 tags:
-  - full-stack
+  
+- full-stack
 ---
 1. [html and css](html-and-css)
 2. [Javascript](Javascript)

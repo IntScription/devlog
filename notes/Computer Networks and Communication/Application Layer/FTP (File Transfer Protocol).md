@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 - It is a standard protocol provided by TCP/IP for copying a file from one host to another
  ![File Transfer Protocol.png](File-Transfer-Protocol.png)
@@ -10,7 +11,8 @@ tags:
 - Control connection is persistent
 - Not inband
 - Reliable (uses TCP)
-- Stateful (each and every file information - history is known)
+- Stateful (each and every file information 
+- history is known)
 
 ### File Transfer
 

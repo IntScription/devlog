@@ -1,7 +1,9 @@
 ---
 tags:
-  - programming
-  - html-css
+  
+- programming
+  
+- html-css
 ---
 - Is a container that contains multiple properties including borders, margins, padding, and the content itself
 

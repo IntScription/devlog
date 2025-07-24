@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 ## CSS Selectors
 

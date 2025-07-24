@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 - Known as Transmission Control Protocol or Internet Protocol
 - Developed by ARPANET

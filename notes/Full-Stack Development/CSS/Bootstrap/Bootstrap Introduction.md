@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 ## What is Bootstrap ?
 
@@ -18,13 +20,16 @@ MaxCDN provides CDN support for Bootstrap's CSS and JavaScript. You must also in
 ### MaxCDN:
 
 ```html
-<!-- Latest compiled and minified CSS -->  
+<!-
+- Latest compiled and minified CSS -->  
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">  
   
-<!-- jQuery library -->  
+<!-
+- jQuery library -->  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>  
   
-<!-- Latest compiled JavaScript -->  
+<!-
+- Latest compiled JavaScript -->  
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 ```
 

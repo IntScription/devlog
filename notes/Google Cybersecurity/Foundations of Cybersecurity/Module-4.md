@@ -1,6 +1,7 @@
 ---
 tags:
-  - cybersecurity
+  
+- cybersecurity
 ---
 ## Log
 

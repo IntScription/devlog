@@ -54,8 +54,10 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 
 # Gaps between windows (inner-*) and between monitor edges (outer-*).
 # Possible values:
-# - Constant:     gaps.outer.top = 8
-# - Per monitor:  gaps.outer.top = [{ monitor.main = 16 }, { monitor."some-pattern" = 32 }, 24]
+# 
+- Constant:     gaps.outer.top = 8
+# 
+- Per monitor:  gaps.outer.top = [{ monitor.main = 16 }, { monitor."some-pattern" = 32 }, 24]
 #                 In this example, 24 is a default value when there is no match.
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See: https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
@@ -73,15 +75,22 @@ outer.right =      10
 [mode.main.binding]
 
 # All possible keys:
-# - Letters.        a, b, c, ..., z
-# - Numbers.        0, 1, 2, ..., 9
-# - Keypad numbers. keypad0, keypad1, keypad2, ..., keypad9
-# - F-keys.         f1, f2, ..., f20
-# - Special keys.   minus, equal, period, comma, slash, backslash, quote, semicolon, backtick,
+# 
+- Letters.        a, b, c, ..., z
+# 
+- Numbers.        0, 1, 2, ..., 9
+# 
+- Keypad numbers. keypad0, keypad1, keypad2, ..., keypad9
+# 
+- F-keys.         f1, f2, ..., f20
+# 
+- Special keys.   minus, equal, period, comma, slash, backslash, quote, semicolon, backtick,
 #                   leftSquareBracket, rightSquareBracket, space, enter, esc, backspace, tab
-# - Keypad special. keypadClear, keypadDecimalMark, keypadDivide, keypadEnter, keypadEqual,
+# 
+- Keypad special. keypadClear, keypadDecimalMark, keypadDivide, keypadEnter, keypadEqual,
 #                   keypadMinus, keypadMultiply, keypadPlus
-# - Arrows.         left, down, up, right
+# 
+- Arrows.         left, down, up, right
 
 # All possible modifiers: cmd, alt, ctrl, shift
 

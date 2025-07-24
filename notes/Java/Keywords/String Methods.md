@@ -1,10 +1,15 @@
 ---
 tags:
-  - java
-  - programming
+  
+- java
+  
+- programming
 ---
 | Method                                                                                     | Description                                                                                                          | Return Type  |
-| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------ |
+| -----------------------------------------------------------------------------------------
+- | -------------------------------------------------------------------------------------------------------------------
+- | -----------
+- |
 | [charAt()](https://www.w3schools.com/java/ref_string_charat.asp)                           | Returns the character at the specified index (position)                                                              | char         |
 | [codePointAt()](https://www.w3schools.com/java/ref_string_codepointat.asp)                 | Returns the Unicode of the character at the specified index                                                          | int          |
 | [codePointBefore()](https://www.w3schools.com/java/ref_string_codepointbefore.asp)         | Returns the Unicode of the character before the specified index                                                      | int          |

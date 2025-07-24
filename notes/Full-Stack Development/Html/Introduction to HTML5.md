@@ -1,7 +1,9 @@
 ---
 tags:
-  - programming
-  - html-css
+  
+- programming
+  
+- html-css
 ---
 - Much more tolerant and an handle markup from all the prior versions
 - HTML (Hyper Text Markup Language)

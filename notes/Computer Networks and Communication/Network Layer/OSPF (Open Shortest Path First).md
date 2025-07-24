@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 - It is an intra-domain protocol (exchanging information between dynamic routers within the autonomous system)
 - Uses link-state routing algorithm

@@ -1,8 +1,11 @@
 ---
 tags:
-  - java
-  - jvm
-  - programming
+  
+- java
+  
+- jvm
+  
+- programming
 ---
 ## Basic operations of JVM
 

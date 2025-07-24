@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 - Port number 80
 - Responsible for the communication between web server and clients

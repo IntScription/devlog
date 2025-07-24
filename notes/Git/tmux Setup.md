@@ -37,7 +37,8 @@ unbind %
 bind | split-window -h
 
 unbind '"'
-bind - split-window -v
+bind 
+- split-window -v
 ```
 
 ## Add keybind for easily refreshing tmux configuration

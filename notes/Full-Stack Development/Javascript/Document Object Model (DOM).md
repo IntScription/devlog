@@ -1,7 +1,9 @@
 ---
 tags:
-  - javascript
-  - programming
+  
+- javascript
+  
+- programming
 ---
 When a web page is loaded, the browser creates a **Document Object  Model** of the page.
 
@@ -29,9 +31,12 @@ _"The W3C Document Object Model (DOM) is a platform and language-neutral interfa
 
 The W3C DOM standard is separated into 3 different parts:
 
-- Core DOM - standard model for all document types
-- XML DOM - standard model for XML documents
-- HTML DOM - standard model for HTML documents
+- Core DOM 
+- standard model for all document types
+- XML DOM 
+- standard model for XML documents
+- HTML DOM 
+- standard model for HTML documents
 
 ## What is the HTML DOM?
 

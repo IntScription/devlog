@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 # What is  Computer Network ?
 
@@ -29,13 +30,18 @@ tags:
 ## Functionalities 
 
 1. **Mandatory** 
-     - Error Control
-     - Flow Control 
-     - Multiplexing and De-multiplexing
+     
+- Error Control
+     
+- Flow Control 
+     
+- Multiplexing and De-multiplexing
 
 2. **Optional**
-     - Encryption
-     - Check Point
+     
+- Encryption
+     
+- Check Point
 
 ---
 

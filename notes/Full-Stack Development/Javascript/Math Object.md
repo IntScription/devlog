@@ -1,7 +1,9 @@
 ---
 tags:
-  - javascript
-  - programming
+  
+- javascript
+  
+- programming
 ---
 ## The Math Object
 
@@ -25,21 +27,36 @@ Math.LOG10E   // returns base 10 logarithm of E
 
 ## Math Methods
 
-1. Math.round() - returns the nearest integer
-2. Math.cell() - returns the value of x rounded **up** to its nearest integer
-3. Math.floor() - returns the value of x rounded **down** to its nearest integer
-4. Math.trunc() - returns the integer part of x
-5. Math.sign() - returns if x is negative, null or positive
-6. Math.pow() - returns the value of x to the power of y
-7. Math.sqrt() - returns the square root of x
-8. Math.abs() - returns the absolute (positive) value of x
-9. Math.sin() - returns the sine (a value between -1 and 1) of the angle x (given in radians)
-10. Math.cos() - returns the cosine (a value between -1 and 1) of the angle x (given in radians)
-11. Math.min() and Math.max() - can be used to find the lowest or highest value in a list of arguments
-12. Math.random() - returns a random number between 0 (inclusive), and 1 (exclusive)
-13. Math.log() - returns the natural logarithm of x
-14. Math.log2() - returns the base 2 logarithm of x
-15. Math.log10() - returns the base 10 logarithm of x
+1. Math.round() 
+- returns the nearest integer
+2. Math.cell() 
+- returns the value of x rounded **up** to its nearest integer
+3. Math.floor() 
+- returns the value of x rounded **down** to its nearest integer
+4. Math.trunc() 
+- returns the integer part of x
+5. Math.sign() 
+- returns if x is negative, null or positive
+6. Math.pow() 
+- returns the value of x to the power of y
+7. Math.sqrt() 
+- returns the square root of x
+8. Math.abs() 
+- returns the absolute (positive) value of x
+9. Math.sin() 
+- returns the sine (a value between -1 and 1) of the angle x (given in radians)
+10. Math.cos() 
+- returns the cosine (a value between -1 and 1) of the angle x (given in radians)
+11. Math.min() and Math.max() 
+- can be used to find the lowest or highest value in a list of arguments
+12. Math.random() 
+- returns a random number between 0 (inclusive), and 1 (exclusive)
+13. Math.log() 
+- returns the natural logarithm of x
+14. Math.log2() 
+- returns the base 2 logarithm of x
+15. Math.log10() 
+- returns the base 10 logarithm of x
 
 ---
 ## JavaScript Math Methods

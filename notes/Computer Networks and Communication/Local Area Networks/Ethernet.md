@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 ## What is it ?
 
@@ -42,7 +43,8 @@ tags:
 
 ### Data and Padding
 
-- 46 Bytes - 1500 Bytes
+- 46 Bytes 
+- 1500 Bytes
 - If less than 46 then it is padded with extra 0's
 - Has a field that defines the length of data
 

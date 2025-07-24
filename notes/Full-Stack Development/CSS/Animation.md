@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 ## Definition and Usage
 
@@ -26,7 +28,9 @@ The `animation` property is a shorthand property for:
 #### Property Values
 
 | Value | Description |
-| ---- | ---- |
+| ---
+- | ---
+- |
 | _time_ | Optional. Defines the number of seconds (s) or milliseconds (ms) to wait before the animation will start. Default value is 0. Negative values are allowed. If you use negative values, the animation will start as if it had already been playing for _N_ seconds/milliseconds. |
 | initial | Sets this property to its default value. |
 | inherit | Inherits this property from its parent element. |
@@ -46,7 +50,9 @@ The `animation-direction` property defines whether an animation should be play
 #### Property Values
 
 | Value | Description |
-| ---- | ---- |
+| ---
+- | ---
+- |
 | normal | Default value. The animation is played as normal (forwards) |
 | reverse | The animation is played in reverse direction (backwards) |
 | alternate | The animation is played forwards first, then backwards |
@@ -69,7 +75,9 @@ The `animation-duration` property defines how long an animation should take to
 #### Property Values
 
 | Value | Description |
-| ---- | ---- |
+| ---
+- | ---
+- |
 | _time_ | Specifies the length of time an animation should take to complete one cycle. This can be specified in seconds or milliseconds. Default value is 0, which means that no animation will occur |
 | initial | Sets this property to its default value. |
 | inherit | Inherits this property from its parent element. |
@@ -113,7 +121,9 @@ The `animation-iteration-count` property specifies the number of times an anim
 #### Property Values
 
 | Value | Description |
-| ---- | ---- |
+| ---
+- | ---
+- |
 | _number_ | A number that defines how many times an animation should be played. Default value is 1 |
 | infinite | Specifies that the animation should be played infinite times (for ever) |
 | initial | Sets this property to its default value. |
@@ -133,7 +143,9 @@ The `animation-name` property specifies a name for the [@keyframes Rule](@key
 #### Property Values
 
 | Value | Description |
-| ---- | ---- |
+| ---
+- | ---
+- |
 | _keyframename_ | Specifies the name of the keyframe you want to bind to the selector |
 | none | Default value. Specifies that there will be no animation (can be used to override animations coming from the cascade) |
 | initial | Sets this property to its default value. |
@@ -156,7 +168,9 @@ The `animation-play-state` property specifies whether the animation is running
 #### Property Values
 
 | Value | Description |
-| ---- | ---- |
+| ---
+- | ---
+- |
 | paused | Specifies that the animation is paused |
 | running | Default value. Specifies that the animation is running |
 | initial | Sets this property to its default value. |
@@ -178,7 +192,9 @@ div:hover {  
 #### Property Values
 
 | Value | Description |
-| ---- | ---- |
+| ---
+- | ---
+- |
 | linear | The animation has the same speed from start to end |
 | ease | Default value. The animation has a slow start, then fast, before it ends slowly |
 | ease-in | The animation has a slow start |

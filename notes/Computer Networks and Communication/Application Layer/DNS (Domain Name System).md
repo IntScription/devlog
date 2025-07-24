@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 - It is a phonebook of the internet
 - Humans access information online through domain names
@@ -34,7 +35,8 @@ tags:
 
 ### DNS Resolver
 
-- DNS cache (sometimes called DNS resolver cache) - It is a temporary database maintained by computer operating system that contains records of all recent visits and attempted visits to websites and other internet domains
+- DNS cache (sometimes called DNS resolver cache) 
+- It is a temporary database maintained by computer operating system that contains records of all recent visits and attempted visits to websites and other internet domains
 - It receives the request to resolve the domain name with the IP address
 ### Root Name Server
 

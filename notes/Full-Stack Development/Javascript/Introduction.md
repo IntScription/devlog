@@ -1,7 +1,9 @@
 ---
 tags:
-  - javascript
-  - programming
+  
+- javascript
+  
+- programming
 ---
 - It is a scripting language used to develop web pages
 - It adds interactivity in the websites
@@ -84,7 +86,8 @@ console.log(templateLiteral);
 ```
 
 The console will show the string "Hello, my name is Naomi~!".
-- `${example}` - behaves like a placeholder
+- `${example}` 
+- behaves like a placeholder
 - A `for...of` loop is used to iterate over elements in an iterable object like an array. The variable declared in the loop represents the current element being iterated over.
 
 ```js

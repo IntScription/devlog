@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 Gradients in CSS are a way to transition between colours across the distance of an element. They are applied to the `background` property and the syntax looks like this:
 

@@ -1,6 +1,7 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
 - Is a reliable protocol that combines the good features of UDP and TCP
 - Provides additional services not provided by UDP or TCP, such as multiple-stream and multihoming services

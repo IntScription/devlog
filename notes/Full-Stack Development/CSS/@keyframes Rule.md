@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 ## Definition and Usage
 
@@ -11,9 +13,12 @@ tags:
 - Specify when the style change will happen in percent, or with the keywords "from" and "to", which is the same as 0% and 100%. 0% is the beginning of the animation, 100% is when the animation is complete.
 
 >[!NOTE]
->-  For best browser support, you should always define both the 0% and the 100% selectors.
->-  Use the animation properties to control the appearance of the animation, and also to bind the animation to selectors.
->- The !important rule is ignored in a keyframe
+>
+-  For best browser support, you should always define both the 0% and the 100% selectors.
+>
+-  Use the animation properties to control the appearance of the animation, and also to bind the animation to selectors.
+>
+- The !important rule is ignored in a keyframe
 
 
 ## Property Values

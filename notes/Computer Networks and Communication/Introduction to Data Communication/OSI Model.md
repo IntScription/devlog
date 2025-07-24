@@ -1,8 +1,10 @@
 ---
 tags:
-  - cnc
+  
+- cnc
 ---
- - Known as the Open System Interconnections
+ 
+- Known as the Open System Interconnections
 
 ![OSI.png](OSI.png)
 

@@ -1,7 +1,9 @@
 ---
 tags:
-  - java
-  - programming
+  
+- java
+  
+- programming
 ---
 |Keyword|Description|
 |---|---|
@@ -15,7 +17,8 @@ tags:
 |[char](https://www.w3schools.com/java/ref_keyword_char.asp)|A data type that is used to store a single character|
 |[class](https://www.w3schools.com/java/ref_keyword_class.asp)|Defines a class|
 |[continue](https://www.w3schools.com/java/ref_keyword_break.asp)|Continues to the next iteration of a loop|
-|const|Defines a constant. Not in use - use [final](https://www.w3schools.com/java/ref_keyword_final.asp) instead|
+|const|Defines a constant. Not in use 
+- use [final](https://www.w3schools.com/java/ref_keyword_final.asp) instead|
 |[default](https://www.w3schools.com/java/ref_keyword_default.asp)|Specifies the default block of code in a switch statement|
 |[do](https://www.w3schools.com/java/ref_keyword_do.asp)|Used together with while to create a do-while loop|
 |[double](https://www.w3schools.com/java/ref_keyword_double.asp)|A data type that can store whole numbers from 1.7e−308 to 1.7e+308|

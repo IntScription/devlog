@@ -1,8 +1,10 @@
 ---
 layout: note
 tags:
-  - java
-  - programming
+  
+- java
+  
+- programming
 ---
 ## Introduction
 

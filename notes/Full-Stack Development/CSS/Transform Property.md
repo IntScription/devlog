@@ -1,7 +1,9 @@
 ---
 tags:
-  - html-css
-  - programming
+  
+- html-css
+  
+- programming
 ---
 ## Definition and Usage
 
@@ -29,7 +31,8 @@ The `transform` property applies a 2D or 3D transformation to an element. This
 |rotateX(_angle_)|Defines a 3D rotation along the X-axis|[Demo ❯](https://www.w3schools.com/CSSREF/playdemo.php?filename=playcss_transform&preval=rotateX(45deg))|
 |rotateY(_angle_)|Defines a 3D rotation along the Y-axis|[Demo ❯](https://www.w3schools.com/CSSREF/playdemo.php?filename=playcss_transform&preval=rotateY(80deg))|
 |rotateZ(_angle_)|Defines a 3D rotation along the Z-axis||
-|skew(_x-angle,y-angle_)|Defines a 2D skew transformation along the X- and the Y-axis|[Demo ❯](https://www.w3schools.com/CSSREF/playdemo.php?filename=playcss_transform&preval=skew(20deg,20deg))|
+|skew(_x-angle,y-angle_)|Defines a 2D skew transformation along the X
+- and the Y-axis|[Demo ❯](https://www.w3schools.com/CSSREF/playdemo.php?filename=playcss_transform&preval=skew(20deg,20deg))|
 |skewX(_angle_)|Defines a 2D skew transformation along the X-axis|[Demo ❯](https://www.w3schools.com/CSSREF/playdemo.php?filename=playcss_transform&preval=skewX(30deg))|
 |skewY(_angle_)|Defines a 2D skew transformation along the Y-axis|[Demo ❯](https://www.w3schools.com/CSSREF/playdemo.php?filename=playcss_transform&preval=skewY(40deg))|
 |perspective(_n_)|Defines a perspective view for a 3D transformed element||

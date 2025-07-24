@@ -1,6 +1,7 @@
 ---
 tags:
-  - cybersecurity
+  
+- cybersecurity
 ---
 ## Security Frameworks
 
@@ -33,9 +34,12 @@ Are safeguards designed to reduce specific security risks
 
 Foundational model that helps inform how organizations consider risk when setting up systems and security policies
 
-- Confidentiality - only authorised users can access specific assets or data
-- Integrity - data is correct, authentic, and reliable
-- Availability - data is accessible to those who are authorised to access it
+- Confidentiality 
+- only authorised users can access specific assets or data
+- Integrity 
+- data is correct, authentic, and reliable
+- Availability 
+- data is accessible to those who are authorised to access it
 
 ## Asset
 
@@ -53,7 +57,8 @@ Examples of frameworks include the NIST Cybersecurity Framework (CSF) and the NI
 
 In addition to the [NIST CSF](https://www.nist.gov/cyberframework) and [NIST RMF](https://csrc.nist.gov/projects/risk-management/about-rmf), there are several other controls, frameworks, and compliance standards that are important for security professionals to be familiar with to help keep organizations and the people they serve safe.
 
-### **The Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)**
+### **The Federal Energy Regulatory Commission 
+- North American Electric Reliability Corporation (FERC-NERC)**
 
 FERC-NERC is a regulation that applies to organizations that work with electricity or that are involved with the U.S. and North American power grid. These types of organizations have an obligation to prepare for, mitigate, and report any potential security incident that can negatively affect the power grid. They are also legally required to adhere to the Critical Infrastructure Protection (CIP) Reliability Standards defined by the FERC. 
 

@@ -1,8 +1,11 @@
 ---
 tags:
-  - java
-  - programming
-  - jvm
+  
+- java
+  
+- programming
+  
+- jvm
 ---
 ## What is JVM ?
 
