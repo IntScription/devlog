@@ -11,11 +11,11 @@ I document my progress, projects, learning experiences, and reflections as I bui
 ---
 
 ## 📅 Recent Devlog Entries
+- [2025-07-27 — Devlog #7]({{site.baseurl}}/logs/2025-07-27/)
 - [2025-07-24 — Devlog #6]({{site.baseurl}}/logs/2025-07-24/)
 - [2025-07-20 — Devlog #5]({{site.baseurl}}/logs/2025-07-23/)
 - [2025-07-20 — Devlog #4]({{site.baseurl}}/logs/2025-07-20/)
 - [2025-07-19 — Devlog #3]({{site.baseurl}}/logs/2025-07-19/)
-- [2025-07-18 — Devlog #2]({{site.baseurl}}/logs/2025-07-18/)
 
 [→ See Full Archive]({{site.baseurl}}/archive/)
 

@@ -20,5 +20,6 @@ permalink: /logs/2025-07-24/
 
 <div class="nav-links">
 <a href="{{ site.baseurl }}/logs/2025-07-23/">← Previous</a>
+<a href="{{ site.baseurl }}/logs/2025-07-27/">Next →</a>
 
 </div>
