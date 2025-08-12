@@ -29,6 +29,6 @@ int main(void){
 
 - I'll work on full-stack.
 
-<div class="nav-links">
 ---
 
+[Next →]({{site.baseurl}}/logs/2025-07-18/)

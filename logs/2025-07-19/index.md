@@ -64,6 +64,4 @@ _includes/
 
 ---
 
-<div class="nav-links">
----
-
+[← Previous]({{site.baseurl}}/logs/2025-07-18/) | [Next →]({{site.baseurl}}/logs/2025-07-20/)
