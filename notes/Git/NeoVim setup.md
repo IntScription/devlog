@@ -1,3 +1,8 @@
+---
+layout: note
+title: NeoVim setup
+---
+
 ## Open a terminal window
 
 Open a terminal window on your mac. You will need a true color terminal for the colorscheme to work properly.

@@ -1,3 +1,8 @@
+---
+layout: note
+title: Vim and NeoVim
+---
+
 ## Cheatsheet
 
 ### Exiting

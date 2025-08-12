@@ -1,3 +1,8 @@
+---
+layout: note
+title: tmux Setup
+---
+
 ## Install TMUX with Homebrew
 
 ```
