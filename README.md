@@ -41,6 +41,11 @@ devlog/
 │   # To add new notes, place a .md file in the appropriate folder
 │
 │   # The Notes section is accessible from the site header and is organized by these folders
+├─ scripts/        # Python automation scripts
+│   ├─ fix_navigation.py      # Fix navigation links in devlog entries
+│   ├─ fix_markdownlint.py    # Auto-fix markdownlint errors
+│   ├─ convert_wikilinks.py   # Convert Obsidian wiki links to Markdown
+│   └─ add_front_matter.py    # Add Jekyll front matter to notes
 ├─ index.md        # Main page (with live typing effect)
 ├─ assets/
 │   ├─ css/
@@ -81,3 +86,14 @@ Then visit [http://localhost:4000/devlog/](http://localhost:4000/devlog/) in you
 - The Notes index page automatically groups notes by folder (e.g., Java, Git, Full-Stack Development, etc.).
 - To add a new note, simply add a Markdown file to the appropriate folder in `notes/`.
 - The Notes section is accessible from the site header navigation.
+
+## 🔧 Automation Scripts
+
+The `scripts/` folder contains Python automation tools:
+
+- **`fix_navigation.py`** — Fixes navigation links in all devlog entries
+- **`fix_markdownlint.py`** — Automatically corrects markdownlint formatting errors
+- **`convert_wikilinks.py`** — Converts Obsidian wiki links (`[[Link]]`) to standard Markdown
+- **`add_front_matter.py`** — Adds Jekyll front matter to notes for proper rendering
+
+These scripts run automatically via Git hooks to maintain code quality.
