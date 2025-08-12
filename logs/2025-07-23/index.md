@@ -6,9 +6,11 @@ permalink: /logs/2025-07-23/
 # Devlog - 2025-07-23
 
 ## 🚀 What I Did
+
 - Did a little html and css work from scrimba.
 
 ## 🧠 What I Learned
+
 - Learned about margins, padding, borders in  css.
 
 >[!Knowledge]
@@ -24,12 +26,14 @@ permalink: /logs/2025-07-23/
 - Variables only exist in the scope at which you create them.
 
 ## 🔥 What's Next
-- I will upload my Obsidain notes soon(more like make a section in my devlog for it).
+
+- I will upload my Obsidain notes soon(more like make a section in my devlog
+  for it).
+
 - Will progress into week 2 of CS50(overall progress is slow but smooth).
 
 ---
 
 <div class="nav-links">
-<a href="{{ site.baseurl }}/logs/2025-07-20/">← Previous</a>
-<a href="{{ site.baseurl }}/logs/2025-07-24/">Next →</a>
-</div>
+---
+

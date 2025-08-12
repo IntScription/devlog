@@ -6,6 +6,7 @@ permalink: /logs/2025-07-17/
 # Devlog - 2025-07-17
 
 ## 🚀 What I Did
+
 - Started with CS50(Computer Science course by Harvard).
 - Helped me on the revision for C-language.
 - This time tried to run the code on the terminal itself.
@@ -20,13 +21,14 @@ int main(void){
 ```
 
 ## 🧠 What I Learned
+
 - It was simple but I wanted to understand the teminal workflow.
 - For compiling and running together, `gcc hello.c -o hello && ./hello`.
 
 ## 🔥 What's Next
+
 - I'll work on full-stack.
 
 <div class="nav-links">
-<a href="{{ site.baseurl }}/logs/2025-07-18/">Next →</a>
-</div>
+---
 

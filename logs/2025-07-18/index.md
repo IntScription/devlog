@@ -6,8 +6,11 @@ permalink: /logs/2025-07-18/
 # Devlog - 2025-07-18
 
 ## 🚀 What I Did
-- Had some fun on MonkeyType(like got 72 with 98% accuracy - not great score but getting there).
-- Used ChatGpt to get some info on different devlog options:
+
+- Had some fun on MonkeyType (like got 72 with 98% accuracy — not great score
+  but getting there).
+
+- Used ChatGPT to get some info on different devlog options:
 
 | Purpose          | Platform               |
 | ---------------- | ---------------------- |
@@ -19,6 +22,7 @@ permalink: /logs/2025-07-18/
 | Monetize          | Newsletter / Medium    |
 
 ## 🧠 What I Learned
+
 - Updated my **personal website** (practice project).
 - Revisited **unordered lists (ul)**.
 - Using **Scrimba (Full-Stack path)** for revision after a long break.
@@ -28,13 +32,12 @@ permalink: /logs/2025-07-18/
   **CSS** → muscles & fibres
   **JS** → brain
 
-
 ## 🔥 What's Next
+
 - CS50 Harvard
 - Data Structures
 - Algorithms
 
-<div class="nav-links">
-<a href="{{ site.baseurl }}/logs/2025-07-17/">← Previous</a>
-<a href="{{ site.baseurl }}/logs/2025-07-19/">Next →</a>
-</div>
+---
+
+[← Previous]({{ site.baseurl }}/logs/2025-07-17/) | [Next →]({{ site.baseurl }}/logs/2025-07-19/)
