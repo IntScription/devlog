@@ -1,0 +1,221 @@
+<link rel="stylesheet" href="/devlog/assets/css/main.css"> 
+
+<div class="gradient-side left"></div>
+<div class="gradient-side right"></div>
+
+<header class="custom-header">
+  <div class="header-title">IntScription()</div>
+  <nav class="header-nav">
+    <a href="/devlog/" title="Home" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0h6"/></svg>
+      <span style="vertical-align:middle;">Home</span>
+    </a>
+    <a href="/devlog/archive/" title="Archive" aria-label="Archive">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="3" width="18" height="4" rx="2"/><path d="M3 7v13a2 2 0 002 2h14a2 2 0 002-2V7"/><path d="M8 10h8v6H8z"/></svg>
+      <span style="vertical-align:middle;">Archive</span>
+    </a>
+    <a href="/devlog/notes/" title="Notes" aria-label="Notes" class="notes-link">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+      <span style="vertical-align:middle;">Notes</span>
+    </a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+      <span class="theme-icon">
+        <!-- Icon will be set by JS -->
+      </span>
+    </button>
+  </nav>
+</header>
+
+<div class="main-container">
+  <main class="custom-main">
+    <div style="margin-bottom:1.5em;">
+  <a href="/devlog/notes/" style="text-decoration:none;font-weight:bold;">← Back to Notes Home</a>
+</div>
+
+<article class="note">
+  <p>The <code class="language-plaintext highlighter-rouge">position</code> property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</p>
+
+<h2 id="the-position-property">The position Property</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">position</code> property specifies the type of positioning method used for an element.</p>
+
+<p>There are five different position values:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">static</code></li>
+  <li><code class="language-plaintext highlighter-rouge">relative</code></li>
+  <li><code class="language-plaintext highlighter-rouge">fixed</code></li>
+  <li><code class="language-plaintext highlighter-rouge">absolute</code></li>
+  <li><code class="language-plaintext highlighter-rouge">sticky</code></li>
+</ul>
+
+<p>Elements are then positioned using the top, bottom, left, and right properties. However, these properties will not work unless the <code class="language-plaintext highlighter-rouge">position</code> property is set first. They also work differently depending on the position value.</p>
+
+<h2 id="position-static">position: static;</h2>
+
+<p>HTML elements are positioned static by default.</p>
+
+<p>Static positioned elements are not affected by the top, bottom, left, and right properties.</p>
+
+<p>An element with <code class="language-plaintext highlighter-rouge">position: static;</code> is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+
+<p>This <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element has <code class="language-plaintext highlighter-rouge">position: static;</code></p>
+
+<h4 id="example">Example:</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span><span class="nc">.static</span><span class="err"> </span><span class="p">{</span>
+  <span class="nl">position</span><span class="p">:</span><span class="err"> </span><span class="nb">static</span><span class="p">;</span>  
+<span class="err">  </span><span class="nl">border</span><span class="p">:</span><span class="err"> </span><span class="m">3px</span> <span class="nb">solid</span> <span class="nx">#73AD21</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="position-relative">position: relative;</h2>
+
+<p>An element with <code class="language-plaintext highlighter-rouge">position: relative;</code> is positioned relative to its normal position.</p>
+
+<p>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</p>
+
+<p>This <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> element has <code class="language-plaintext highlighter-rouge">position: relative;</code></p>
+
+<h4 id="example-1">Example:</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span><span class="nc">.relative</span><span class="err"> </span><span class="p">{</span>
+  <span class="nl">position</span><span class="p">:</span><span class="err"> </span><span class="nb">relative</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">left</span><span class="p">:</span><span class="err"> </span><span class="m">30px</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">border</span><span class="p">:</span><span class="err"> </span><span class="m">3px</span> <span class="nb">solid</span> <span class="nx">#73AD21</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="position-fixed">position: fixed;</h2>
+
+<p>An element with <code class="language-plaintext highlighter-rouge">position: fixed;</code> is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.</p>
+
+<p>A fixed element does not leave a gap in the page where it would normally have been located.</p>
+
+<p>Notice the fixed element in the lower-right corner of the page. Here is the CSS that is used:</p>
+
+<h4 id="example-2">Example:</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span><span class="nc">.fixed</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+  <span class="nl">position</span><span class="p">:</span><span class="err"> </span><span class="nb">fixed</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">bottom</span><span class="p">:</span><span class="err"> </span><span class="m">0</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">right</span><span class="p">:</span><span class="err"> </span><span class="m">0</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">width</span><span class="p">:</span><span class="err"> </span><span class="m">300px</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">border</span><span class="p">:</span><span class="err"> </span><span class="m">3px</span> <span class="nb">solid</span> <span class="nx">#73AD21</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="position-absolute">position: absolute;</h2>
+
+<p>An element with <code class="language-plaintext highlighter-rouge">position: absolute;</code> is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</p>
+
+<p>However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.</p>
+
+<p><strong>Note:</strong> Absolute positioned elements are removed from the normal flow, and can overlap elements.</p>
+
+<h4 id="example-3">Example:</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span><span class="nc">.relative</span><span class="err"> </span><span class="p">{</span><span class="err">  </span>
+  <span class="nl">position</span><span class="p">:</span><span class="err"> </span><span class="nb">relative</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">width</span><span class="p">:</span><span class="err"> </span><span class="m">400px</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">height</span><span class="p">:</span><span class="err"> </span><span class="m">200px</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">border</span><span class="p">:</span><span class="err"> </span><span class="m">3px</span> <span class="nb">solid</span> <span class="nx">#73AD21</span><span class="p">;</span>
+<span class="p">}</span>  
+  
+<span class="nt">div</span><span class="nc">.absolute</span><span class="err"> </span><span class="p">{</span><span class="err">  </span>
+  <span class="nl">position</span><span class="p">:</span><span class="err"> </span><span class="nb">absolute</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">top</span><span class="p">:</span><span class="err"> </span><span class="m">80px</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">right</span><span class="p">:</span><span class="err"> </span><span class="m">0</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">width</span><span class="p">:</span><span class="err"> </span><span class="m">200px</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">height</span><span class="p">:</span><span class="err"> </span><span class="m">100px</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">border</span><span class="p">:</span><span class="err"> </span><span class="m">3px</span> <span class="nb">solid</span> <span class="nx">#73AD21</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="position-sticky">position: sticky;</h2>
+
+<p>An element with <code class="language-plaintext highlighter-rouge">position: sticky;</code> is positioned based on the user’s scroll position.</p>
+
+<p>A sticky element toggles between <code class="language-plaintext highlighter-rouge">relative</code> and <code class="language-plaintext highlighter-rouge">fixed</code>, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport</p>
+<ul>
+  <li>then it “sticks” in place (like position:fixed).</li>
+</ul>
+
+<h4 id="example-4">Example:</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">div</span><span class="nc">.sticky</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+  <span class="nl">position</span><span class="p">:</span><span class="err"> </span><span class="o">-</span><span class="n">webkit-sticky</span><span class="p">;</span><span class="err"> </span><span class="c">/* Safari */</span>  
+<span class="err"> </span> <span class="nl">position</span><span class="p">:</span><span class="err"> </span><span class="nb">sticky</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">top</span><span class="p">:</span><span class="err"> </span><span class="m">0</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">background-color</span><span class="p">:</span><span class="err"> </span><span class="nx">green</span><span class="p">;</span>  
+<span class="err"> </span> <span class="nl">border</span><span class="p">:</span><span class="err"> </span><span class="m">2px</span> <span class="nb">solid</span> <span class="nx">#4CAF50</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="all-properties-">All Properties :</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Property</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_pos_bottom.php">bottom</a></td>
+      <td>Sets the bottom margin edge for a positioned box</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_pos_clip.php">clip</a></td>
+      <td>Clips an absolutely positioned element</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_pos_left.php">left</a></td>
+      <td>Sets the left margin edge for a positioned box</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_class_position.php">position</a></td>
+      <td>Specifies the type of positioning for an element</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_pos_right.php">right</a></td>
+      <td>Sets the right margin edge for a positioned box</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/pr_pos_top.php">top</a></td>
+      <td>Sets the top margin edge for a positioned box</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="note-">**NOTE :</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">fixed</code> is a <code class="language-plaintext highlighter-rouge">position</code> property value that lets you make an element fixed to the page no matter where the user scrolls to on the page.</li>
+</ul>
+
+<hr />
+
+</article> 
+  </main>
+</div>
+
+<footer class="custom-footer">
+  <div class="footer-title">Connect With Me</div>
+  <ul class="footer-links">
+    <li><a href="https://github.com/IntScription" target="_blank" aria-label="GitHub">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.426 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .268.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
+      GitHub</a></li>
+    <li><a href="https://www.youtube.com/@idkythisisme" target="_blank" aria-label="YouTube">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.116C19.458 3.5 12 3.5 12 3.5s-7.458 0-9.386.57A2.994 2.994 0 0 0 .502 6.186C0 8.124 0 12 0 12s0 3.876.502 5.814a2.994 2.994 0 0 0 2.112 2.116C4.542 20.5 12 20.5 12 20.5s7.458 0 9.386-.57a2.994 2.994 0 0 0 2.112-2.116C24 15.876 24 12 24 12s0-3.876-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      YouTube</a></li>
+  </ul>
+</footer>
+
+<script src="/devlog/assets/js/theme-toggle.js"></script>
+ 

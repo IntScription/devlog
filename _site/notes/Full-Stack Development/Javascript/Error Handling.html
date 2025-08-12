@@ -1,0 +1,123 @@
+<link rel="stylesheet" href="/devlog/assets/css/main.css"> 
+
+<div class="gradient-side left"></div>
+<div class="gradient-side right"></div>
+
+<header class="custom-header">
+  <div class="header-title">IntScription()</div>
+  <nav class="header-nav">
+    <a href="/devlog/" title="Home" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0h6"/></svg>
+      <span style="vertical-align:middle;">Home</span>
+    </a>
+    <a href="/devlog/archive/" title="Archive" aria-label="Archive">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="3" width="18" height="4" rx="2"/><path d="M3 7v13a2 2 0 002 2h14a2 2 0 002-2V7"/><path d="M8 10h8v6H8z"/></svg>
+      <span style="vertical-align:middle;">Archive</span>
+    </a>
+    <a href="/devlog/notes/" title="Notes" aria-label="Notes" class="notes-link">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+      <span style="vertical-align:middle;">Notes</span>
+    </a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+      <span class="theme-icon">
+        <!-- Icon will be set by JS -->
+      </span>
+    </button>
+  </nav>
+</header>
+
+<div class="main-container">
+  <main class="custom-main">
+    <div style="margin-bottom:1.5em;">
+  <a href="/devlog/notes/" style="text-decoration:none;font-weight:bold;">← Back to Notes Home</a>
+</div>
+
+<article class="note">
+  <h2 id="referenceerror">ReferenceError</h2>
+
+<p>A ReferenceError gets thrown when, for example, one tries to use variables that haven’t been declared anywhere.</p>
+
+<p>An example can be, say, attempting to console log a variable that doesn’t exist:</p>
+
+<pre><code class="language-JavaScript">console.log(username);
+
+//If the variable named username hasn't been declared, the above line of code will result in the following output:
+
+Uncaught ReferenceError: username is not defined
+</code></pre>
+
+<h2 id="syntaxerror">SyntaxError</h2>
+
+<p>Any kind of invalid JavaScript code will cause a SyntaxError.</p>
+
+<p>For example:</p>
+
+<pre><code class="language-JavaScript">var a "there's no assignment operator here";
+
+//The above line of code will throw the following error:
+
+Uncaught SyntaxError: Unexpected string
+</code></pre>
+
+<p>There’s an interesting caveat regarding the SyntaxError in JavaScript: it cannot be caught using the try-catch block.</p>
+
+<h2 id="typeerror">TypeError</h2>
+
+<p>A TypeError is thrown when, for example, trying to run a method on a non-supported data type.</p>
+
+<p>A simple example is attempting to run the pop() method on a string:</p>
+
+<pre><code class="language-JavaScript">"hello".pop() // Uncaught TypeError: "hello".pop is not a function
+</code></pre>
+
+<p>The array-like behaviour of strings was already covered in an earlier lesson in this course.</p>
+
+<p>However, as can be confirmed by running the above line of code, strings do not have all the array methods readily available to them, and trying to use some of those methods will result in a TypeError being thrown.</p>
+
+<h2 id="rangeerror">RangeError</h2>
+
+<p>A RangeError is thrown when we’re giving a value to a function, but that value is out of the allowed range of acceptable input values.</p>
+
+<p>Here’s a simple example of converting an everyday <em>Base 10 number</em> (a number of the common decimal system) to a <em>Base 2 number</em> (i.e binary number).</p>
+
+<p>For example:</p>
+
+<pre><code class="language-JavaScript">(10).toString(2); // '1010'
+
+//The value of 2 when passed to the toString() method, is like saying to JavaScript: "convert the value of 10 of the Base 10 number system, to its counter-part in the Base 2 number system".
+</code></pre>
+
+<p>JavaScript obliges and “translates” the “regular” number 10 to its binary counter-part.</p>
+
+<p>Besides using Base 2 number system, I can also use the Base 8, like this:</p>
+
+<pre><code class="language-JavaScript">(10).toString(8); // 12
+</code></pre>
+
+<p>I get back the value 12, which is the plain number 10, written in Base 8 number system.</p>
+
+<p>However, if I try to use a non-existing number system, such as an imaginary <em>Base 100</em>, since this number system effectively doesn’t exist in JavaScript, I will get the RangeError, because a non-existing <em>Base 100</em> system is <strong>out of range</strong> of the number systems that are available to the toString() method:</p>
+
+<pre><code class="language-JavaScript">(10).toString(100); // Uncaught RangeError: toString() radix argument must be between 2 and 36
+</code></pre>
+
+<hr />
+
+</article> 
+  </main>
+</div>
+
+<footer class="custom-footer">
+  <div class="footer-title">Connect With Me</div>
+  <ul class="footer-links">
+    <li><a href="https://github.com/IntScription" target="_blank" aria-label="GitHub">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.426 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .268.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
+      GitHub</a></li>
+    <li><a href="https://www.youtube.com/@idkythisisme" target="_blank" aria-label="YouTube">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.116C19.458 3.5 12 3.5 12 3.5s-7.458 0-9.386.57A2.994 2.994 0 0 0 .502 6.186C0 8.124 0 12 0 12s0 3.876.502 5.814a2.994 2.994 0 0 0 2.112 2.116C4.542 20.5 12 20.5 12 20.5s7.458 0 9.386-.57a2.994 2.994 0 0 0 2.112-2.116C24 15.876 24 12 24 12s0-3.876-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      YouTube</a></li>
+  </ul>
+</footer>
+
+<script src="/devlog/assets/js/theme-toggle.js"></script>
+ 

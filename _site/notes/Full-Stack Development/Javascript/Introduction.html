@@ -1,0 +1,174 @@
+<link rel="stylesheet" href="/devlog/assets/css/main.css"> 
+
+<div class="gradient-side left"></div>
+<div class="gradient-side right"></div>
+
+<header class="custom-header">
+  <div class="header-title">IntScription()</div>
+  <nav class="header-nav">
+    <a href="/devlog/" title="Home" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0h6"/></svg>
+      <span style="vertical-align:middle;">Home</span>
+    </a>
+    <a href="/devlog/archive/" title="Archive" aria-label="Archive">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="3" width="18" height="4" rx="2"/><path d="M3 7v13a2 2 0 002 2h14a2 2 0 002-2V7"/><path d="M8 10h8v6H8z"/></svg>
+      <span style="vertical-align:middle;">Archive</span>
+    </a>
+    <a href="/devlog/notes/" title="Notes" aria-label="Notes" class="notes-link">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+      <span style="vertical-align:middle;">Notes</span>
+    </a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+      <span class="theme-icon">
+        <!-- Icon will be set by JS -->
+      </span>
+    </button>
+  </nav>
+</header>
+
+<div class="main-container">
+  <main class="custom-main">
+    <div style="margin-bottom:1.5em;">
+  <a href="/devlog/notes/" style="text-decoration:none;font-weight:bold;">← Back to Notes Home</a>
+</div>
+
+<article class="note">
+  <ul>
+  <li>It is a scripting language used to develop web pages</li>
+  <li>It adds interactivity in the websites</li>
+  <li>Is a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Prototype-based_programming">prototype-based</a>, multi-paradigm, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Thread">single-threaded</a>, <a href="https://developer.mozilla.org/en-US/docs/Glossary/Dynamic_typing">dynamic</a> language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles</li>
+</ul>
+
+<hr />
+<h2 id="note">NOTE:</h2>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">let</code> keyword tells JavaScript you are declaring a variable.</li>
+  <li>JavaScript interacts with the HTML using the Document Object Model, or DOM. The DOM is a tree of objects that represents the HTML. You can access the HTML using the <code class="language-plaintext highlighter-rouge">document</code> object, which represents your entire HTML document.</li>
+  <li>One method for finding specific elements in your HTML is using the <code class="language-plaintext highlighter-rouge">querySelector()</code> method. The <code class="language-plaintext highlighter-rouge">querySelector()</code> method takes a CSS selector as an argument and returns the first element that matches that selector. For example, to find the <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> element in your HTML, you would write:</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">h1</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">h1</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>Scope is the term used to describe where a variable can be accessed. If a variable is declared inside a block of code, it is only accessible to the code inside that block. This is called block scope.</p>
+
+    <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">num</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="k">if </span><span class="p">(</span><span class="nx">num</span> <span class="o">===</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+<span class="kd">let</span> <span class="nx">num</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span> <span class="c1">// this num is scoped to the if statement</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">num</span><span class="p">);</span> <span class="c1">// expected output: 2</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">num</span><span class="p">);</span> <span class="c1">// expected output: 1 (the global variable)</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">shift()</code> method on an array removes the first element in the array and returns it.</p>
+  </li>
+</ul>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">];</span>
+<span class="kd">const</span> <span class="nx">firstNumber</span> <span class="o">=</span> <span class="nx">numbers</span><span class="p">.</span><span class="nf">shift</span><span class="p">();</span> <span class="c1">// returns 1</span>
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">Math</code> object in JavaScript contains static properties and methods for mathematical constants and functions. One of those is <code class="language-plaintext highlighter-rouge">Math.random()</code>, which generates a random number from <code class="language-plaintext highlighter-rouge">0</code> (inclusive) to <code class="language-plaintext highlighter-rouge">1</code> (exclusive). Another is <code class="language-plaintext highlighter-rouge">Math.floor()</code>, which rounds a given number down to the nearest integer. Using these, you can generate a random number within a range. For example, this generates a random number between <code class="language-plaintext highlighter-rouge">1</code> and <code class="language-plaintext highlighter-rouge">5</code>: <code class="language-plaintext highlighter-rouge">Math.floor(Math.random() * 5) + 1;</code>.</p>
+  </li>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">innerHTML</code> property allows you to access or modify the content inside an HTML element using JavaScript.</p>
+  </li>
+</ul>
+
+<p>Here is an example of updating the content for this paragraph element using the <code class="language-plaintext highlighter-rouge">innerHTML</code> property.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"demo"</span><span class="nt">&gt;</span>This is a paragraph.<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">document</span><span class="p">.</span><span class="nf">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#demo</span><span class="dl">"</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span><span class="dl">"</span><span class="s2">Hello, innerHTML!</span><span class="dl">"</span><span class="p">;</span> 
+</code></pre></div></div>
+
+<ul>
+  <li>Functions run specific blocks of code when they are called, but they can also return a value. This value can be assigned to a variable and used elsewhere in your code.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">ternary operator</code> is a conditional operator and can be used as a one-line <code class="language-plaintext highlighter-rouge">if-else</code> statement. The syntax is: <code class="language-plaintext highlighter-rouge">condition ? expressionIfTrue : expressionIfFalse</code>.</li>
+</ul>
+
+<p>Here is an example of returning a value using an <code class="language-plaintext highlighter-rouge">if-else</code> statement and a refactored example using a ternary operator:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// if-else statement</span>
+<span class="k">if </span><span class="p">(</span><span class="nx">score</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">score</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">default_score</span>
+<span class="p">}</span>
+
+<span class="c1">// ternary operator</span>
+<span class="nx">score</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="p">?</span> <span class="nx">score</span> <span class="p">:</span> <span class="nx">default_score</span>
+</code></pre></div></div>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">g</code> flag, which stands for “global”, will tell the pattern to continue looking after it has found a match. Here is an example:</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">helloRegex</span> <span class="o">=</span> <span class="sr">/hello/g</span><span class="p">;</span>
+</code></pre></div></div>
+
+<ul>
+  <li>JavaScript has a feature called template literals, which allow you to interpolate variables directly within a string. Template literals are denoted with backticks <code class="language-plaintext highlighter-rouge"> </code><code class="language-plaintext highlighter-rouge"> </code>, as opposed to single or double quotes. Variables can be passed in to a template literal by surrounding the variable with <code class="language-plaintext highlighter-rouge">${}</code> – the value of the variable will be inserted into the string.</li>
+</ul>
+
+<p>For example:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">Naomi</span><span class="dl">"</span><span class="p">;</span>
+<span class="kd">const</span> <span class="nx">templateLiteral</span> <span class="o">=</span> <span class="s2">`Hello, my name is </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">~!`</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">templateLiteral</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>The console will show the string “Hello, my name is Naomi~!”.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">${example}</code></li>
+  <li>behaves like a placeholder</li>
+  <li>A <code class="language-plaintext highlighter-rouge">for...of</code> loop is used to iterate over elements in an iterable object like an array. The variable declared in the loop represents the current element being iterated over.</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for </span><span class="p">(</span><span class="kd">const</span> <span class="nx">element</span> <span class="k">of</span> <span class="nx">elementArray</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="nx">element</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>The <code class="language-plaintext highlighter-rouge">Number</code> constructor is a function that converts a value to a number. If the value cannot be converted, it returns <code class="language-plaintext highlighter-rouge">NaN</code> which stands for “Not a Number”.</li>
+</ul>
+
+<p>Here is an example:</p>
+
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">Number</span><span class="p">(</span><span class="dl">'</span><span class="s1">10</span><span class="dl">'</span><span class="p">);</span> <span class="c1">// returns the number 10</span>
+<span class="nc">Number</span><span class="p">(</span><span class="dl">'</span><span class="s1">abc</span><span class="dl">'</span><span class="p">);</span> <span class="c1">// returns NaN</span>
+</code></pre></div></div>
+
+<hr />
+<blockquote>
+  <p>[!IMP]
+Templates and literals</p>
+</blockquote>
+
+
+</article> 
+  </main>
+</div>
+
+<footer class="custom-footer">
+  <div class="footer-title">Connect With Me</div>
+  <ul class="footer-links">
+    <li><a href="https://github.com/IntScription" target="_blank" aria-label="GitHub">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.426 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .268.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
+      GitHub</a></li>
+    <li><a href="https://www.youtube.com/@idkythisisme" target="_blank" aria-label="YouTube">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.116C19.458 3.5 12 3.5 12 3.5s-7.458 0-9.386.57A2.994 2.994 0 0 0 .502 6.186C0 8.124 0 12 0 12s0 3.876.502 5.814a2.994 2.994 0 0 0 2.112 2.116C4.542 20.5 12 20.5 12 20.5s7.458 0 9.386-.57a2.994 2.994 0 0 0 2.112-2.116C24 15.876 24 12 24 12s0-3.876-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      YouTube</a></li>
+  </ul>
+</footer>
+
+<script src="/devlog/assets/js/theme-toggle.js"></script>
+ 

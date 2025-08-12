@@ -37,4 +37,8 @@ defaults:
     values:
       title: ""
       sitemap: false
+  - scope:
+      path: "notes"
+    values:
+      layout: note
 

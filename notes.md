@@ -14,3 +14,4 @@ Welcome to my notes collection! Click any note to read.
     {% endif %}
   {% endfor %}
 </ul>
+ 

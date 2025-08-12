@@ -1,0 +1,271 @@
+<link rel="stylesheet" href="/devlog/assets/css/main.css"> 
+
+<div class="gradient-side left"></div>
+<div class="gradient-side right"></div>
+
+<header class="custom-header">
+  <div class="header-title">IntScription()</div>
+  <nav class="header-nav">
+    <a href="/devlog/" title="Home" aria-label="Home">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0h6"/></svg>
+      <span style="vertical-align:middle;">Home</span>
+    </a>
+    <a href="/devlog/archive/" title="Archive" aria-label="Archive">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="3" width="18" height="4" rx="2"/><path d="M3 7v13a2 2 0 002 2h14a2 2 0 002-2V7"/><path d="M8 10h8v6H8z"/></svg>
+      <span style="vertical-align:middle;">Archive</span>
+    </a>
+    <a href="/devlog/notes/" title="Notes" aria-label="Notes" class="notes-link">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;margin-right:4px;"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+      <span style="vertical-align:middle;">Notes</span>
+    </a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+      <span class="theme-icon">
+        <!-- Icon will be set by JS -->
+      </span>
+    </button>
+  </nav>
+</header>
+
+<div class="main-container">
+  <main class="custom-main">
+    <div style="margin-bottom:1.5em;">
+  <a href="/devlog/notes/" style="text-decoration:none;font-weight:bold;">← Back to Notes Home</a>
+</div>
+
+<article class="note">
+  <p>Gradients in CSS are a way to transition between colours across the distance of an element. They are applied to the <code class="language-plaintext highlighter-rouge">background</code> property and the syntax looks like this:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">gradient-type</span><span class="o">(</span>
+  <span class="nt">color1</span><span class="o">,</span>
+  <span class="nt">color2</span>
+<span class="o">);</span>
+</code></pre></div></div>
+
+<p>CSS defines three types of gradients:</p>
+
+<ul>
+  <li><strong>Linear Gradients (goes down/up/left/right/diagonally)</strong></li>
+  <li><strong>Radial Gradients (defined by their center)</strong></li>
+  <li><strong>Conic Gradients (rotated around a center point)</strong></li>
+</ul>
+
+<h2 id="css-linear-gradients">CSS Linear Gradients</h2>
+
+<p>To create a linear gradient you must define at least two colour stops. Colour stops are the colours you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-image</span><span class="o">:</span> <span class="nt">linear-gradient</span><span class="o">(</span><span class="nt">direction</span><span class="o">,</span><span class="err"> </span><span class="nt">color-stop1</span><span class="o">,</span><span class="err"> </span><span class="nt">color-stop2</span><span class="o">,</span> <span class="o">...);</span>
+</code></pre></div></div>
+
+<h3 id="using-angles">Using Angles</h3>
+
+<p>If you want more control over the direction of the gradient, you can define an angle, instead of the predefined directions (to bottom, to top, to right, to left, to bottom right, etc.). A value of 0deg is equivalent to “to top”. A value of 90deg is equivalent to “to right”. A value of 180deg is equivalent to “to bottom”.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-image</span><span class="o">:</span> <span class="nt">linear-gradient</span><span class="o">(</span><span class="nt">angle</span><span class="o">,</span><span class="err"> </span><span class="nt">color-stop1</span><span class="o">,</span> <span class="nt">color-stop2</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h3 id="using-transparency">Using Transparency</h3>
+
+<p>CSS gradients also support transparency, which can be used to create fading effects.</p>
+
+<p>To add transparency, we use the rgba() function to define the colour stops. The last parameter in the rgba() function can be a value from 0 to 1, and it defines the transparency of the colour: 0 indicates full transparency, 1 indicates full colour (no transparency).</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+<span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">linear-gradient</span><span class="p">(</span><span class="n">to</span> <span class="nb">right</span><span class="p">,</span> <span class="nf">rgba</span><span class="p">(</span><span class="m">255</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">),</span> <span class="nf">rgba</span><span class="p">(</span><span class="m">255</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">));</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="repeating-a-linear-gradient">Repeating a linear-gradient</h3>
+
+<p>The repeating-linear-gradient() function is used to repeat linear gradients</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+<span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">repeating-linear-gradient</span><span class="p">(</span><span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span> <span class="m">10%</span><span class="p">,</span> <span class="nx">green</span> <span class="m">20%</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+<h2 id="css-radial-gradients">CSS Radial Gradients</h2>
+
+<p>A radial gradient is defined by its center. To create a radial gradient you must also define at least two colour stops.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-image</span><span class="o">:</span> <span class="nt">radial-gradient</span><span class="o">(</span><span class="nt">shape</span> <span class="nt">size</span><span class="err"> </span><span class="nt">at</span><span class="err"> </span><span class="nt">position</span><span class="o">,</span> <span class="nt">start-color</span><span class="o">,</span> <span class="o">...,</span> <span class="nt">last-color</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h3 id="set-shape">Set Shape</h3>
+
+<p>The shape parameter defines the shape. It can take the value circle or ellipse. The default value is ellipse.</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span>
+ <span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">radial-gradient</span><span class="p">(</span><span class="nb">circle</span><span class="p">,</span> <span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span><span class="p">,</span> <span class="nx">green</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="use-of-different-size-keywords">Use of Different Size Keywords</h3>
+
+<p>The size parameter defines the size of the gradient. It can take four values:</p>
+
+<ul>
+  <li><strong>closest-side</strong></li>
+  <li><strong>farthest-side</strong></li>
+  <li><strong>closest-corner</strong></li>
+  <li><strong>farthest-corner</strong></li>
+</ul>
+
+<h4 id="example">Example:</h4>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad1</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+<span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">radial-gradient</span><span class="p">(</span><span class="nb">closest-side</span> <span class="n">at</span> <span class="m">60%</span> <span class="m">55%</span><span class="p">,</span> <span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span><span class="p">,</span> <span class="nx">black</span><span class="p">);</span>
+<span class="p">}</span>  
+  
+<span class="nf">#grad2</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+<span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">radial-gradient</span><span class="p">(</span><span class="nb">farthest-side</span> <span class="n">at</span> <span class="m">60%</span> <span class="m">55%</span><span class="p">,</span> <span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span><span class="p">,</span> <span class="nx">black</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="repeating-a-radial-gradient">Repeating a radial-gradient</h3>
+
+<p>The repeating-radial-gradient() function is used to repeat radial gradients</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+<span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">repeating-radial-gradient</span><span class="p">(</span><span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span> <span class="m">10%</span><span class="p">,</span> <span class="nx">green</span> <span class="m">15%</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+<h2 id="css-conic-gradients">CSS Conic Gradients</h2>
+
+<p>A conic gradient is a gradient with colour transitions rotated around a center point.</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">background-image</span><span class="o">:</span> <span class="nt">conic-gradient</span><span class="o">([</span><span class="nt">from</span><span class="err"> </span><span class="nt">angle</span><span class="o">]</span> <span class="o">[</span><span class="nt">at</span><span class="err"> </span><span class="nt">position</span><span class="o">,]</span><span class="err"> </span><span class="nt">color</span><span class="err"> </span><span class="o">[</span><span class="nt">degree</span><span class="o">],</span> <span class="nt">color</span><span class="err"> </span><span class="o">[</span><span class="nt">degree</span><span class="o">],</span> <span class="o">...);</span>
+</code></pre></div></div>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span>
+ <span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">conic-gradient</span><span class="p">(</span><span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span><span class="p">,</span> <span class="nx">green</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="conic-gradient-three-colours-and-degrees">Conic Gradient: Three Colours and Degrees</h3>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span>
+<span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">conic-gradient</span><span class="p">(</span><span class="nx">red</span> <span class="m">45deg</span><span class="p">,</span> <span class="nx">yellow</span> <span class="m">90deg</span><span class="p">,</span>    <span class="nx">green</span> <span class="m">210deg</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="create-pie-charts">Create Pie Charts</h3>
+
+<p>Just add <code class="language-plaintext highlighter-rouge">border-radius: 50%</code> to make the conic gradient look like a pie</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+  <span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">conic-gradient</span><span class="p">(</span><span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span><span class="p">,</span> <span class="nx">green</span><span class="p">,</span> <span class="nx">blue</span><span class="p">,</span>  <span class="nx">black</span><span class="p">);</span>  
+<span class="err"> </span> <span class="nl">border-radius</span><span class="p">:</span><span class="err"> </span><span class="m">50%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="conic-gradient-with-specified-from-angle">Conic Gradient With Specified From Angle</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">[from angle]</code> specifies an angle that the entire conic gradient is rotated by.</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span>
+ <span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">conic-gradient</span><span class="p">(</span><span class="n">from</span> <span class="m">90deg</span><span class="p">,</span> <span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span><span class="p">,</span> <span class="nx">green</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="conic-gradient-with-specified-center-position">Conic Gradient With Specified Center Position</h2>
+
+<p>The <code class="language-plaintext highlighter-rouge">[at position]</code> specifies the center of the conic gradient.</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+ <span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">conic-gradient</span><span class="p">(</span><span class="n">at</span> <span class="m">60%</span> <span class="m">45%</span><span class="p">,</span> <span class="nx">red</span><span class="p">,</span> <span class="nx">yellow</span><span class="p">,</span> <span class="nx">green</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="repeating-a-conic-gradient">Repeating a Conic Gradient</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">repeating-conic-gradient()</code> function is used to repeat conic gradients</p>
+
+<p>Eg:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nf">#grad</span><span class="err"> </span><span class="p">{</span><span class="err"> </span> 
+ <span class="nl">background-image</span><span class="p">:</span><span class="err"> </span><span class="nf">repeating-conic-gradient</span><span class="p">(</span><span class="nx">red</span> <span class="m">10%</span><span class="p">,</span> <span class="nx">yellow</span> <span class="m">20%</span><span class="p">);</span>  
+<span class="err"> </span> <span class="nl">border-radius</span><span class="p">:</span><span class="err"> </span><span class="m">50%</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+<h2 id="css-gradient-functions">CSS Gradient Functions</h2>
+
+<p>The following table lists the CSS gradient functions:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Function</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/func_conic-gradient.asp">conic-gradient()</a></td>
+      <td>Creates a conic gradient. Define at least two colors (around a center point)</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/func_linear-gradient.asp">linear-gradient()</a></td>
+      <td>Creates a linear gradient. Define at least two colors (top to bottom)</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/func_radial-gradient.asp">radial-gradient()</a></td>
+      <td>Creates a radial gradient. Define at least two colors (center to edges)</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/func_repeating-conic-gradient.asp">repeating-conic-gradient()</a></td>
+      <td>Repeats a conic gradient</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/func_repeating-linear-gradient.asp">repeating-linear-gradient()</a></td>
+      <td>Repeats a linear gradient</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.w3schools.com/cssref/func_repeating-radial-gradient.asp">repeating-radial-gradient()</a></td>
+      <td>Repeats a radial gradient</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+</article> 
+  </main>
+</div>
+
+<footer class="custom-footer">
+  <div class="footer-title">Connect With Me</div>
+  <ul class="footer-links">
+    <li><a href="https://github.com/IntScription" target="_blank" aria-label="GitHub">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.426 2.865 8.184 6.839 9.504.5.092.682-.217.682-.483 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.221-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.847-2.337 4.695-4.566 4.944.359.309.678.919.678 1.852 0 1.336-.012 2.417-.012 2.747 0 .268.18.579.688.481C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z"/></svg>
+      GitHub</a></li>
+    <li><a href="https://www.youtube.com/@idkythisisme" target="_blank" aria-label="YouTube">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="vertical-align:middle;margin-right:6px;"><path d="M23.498 6.186a2.994 2.994 0 0 0-2.112-2.116C19.458 3.5 12 3.5 12 3.5s-7.458 0-9.386.57A2.994 2.994 0 0 0 .502 6.186C0 8.124 0 12 0 12s0 3.876.502 5.814a2.994 2.994 0 0 0 2.112 2.116C4.542 20.5 12 20.5 12 20.5s7.458 0 9.386-.57a2.994 2.994 0 0 0 2.112-2.116C24 15.876 24 12 24 12s0-3.876-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+      YouTube</a></li>
+  </ul>
+</footer>
+
+<script src="/devlog/assets/js/theme-toggle.js"></script>
+ 
