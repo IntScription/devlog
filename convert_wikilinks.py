@@ -1,40 +1,49 @@
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 def build_note_index(root):
     """
-    Build a mapping from note title (without extension) to relative path from notes root.
+    Build a mapping from note title (filename without extension) to site-relative URL
+    like '/notes/Folder/Subfolder/File.html' with percent-encoding for spaces.
     """
     index = {}
     for md_file in root.rglob("*.md"):
-        # Get the note title (filename without extension)
         title = md_file.stem
-        # Get the relative path from the notes root, with slashes and no .md
-        rel_path = md_file.relative_to(root).with_suffix("")
-        # Store as POSIX path (for URL)
-        index[title] = rel_path.as_posix()
+        rel_path = md_file.relative_to(root).with_suffix(".html").as_posix()
+        # Prefix with '/notes/' and percent-encode path segments but keep slashes
+        url = "/notes/" + quote(rel_path, safe="/")
+        index[title] = url
     return index
 
 def convert_links(text, note_index):
-    # Convert [[Target|Text]] to - [Text](relative-path)
+    # [[Target|Text]] → - [Text]({{ '/notes/..../File.html' | relative_url }})
     def repl_wikilink_with_text(match):
-        target, text = match.group(1), match.group(2)
-        url = note_index.get(target, target.replace(" ", "-"))
-        return f"- [{text}]({url})"
-    text = re.sub(r'\[\[([^\]|]+)\|([^\]]+)\]\]', repl_wikilink_with_text, text)
+        target, link_text = match.group(1), match.group(2)
+        url = note_index.get(target)
+        if not url:
+            # Fallback: naive dash replacement, .html
+            url = "/notes/" + quote(target.replace(" ", "-") + ".html")
+        return f"- [{link_text}]({{{{ '{url}' | relative_url }}}})"
 
-    # Convert [[Target]] to - [Target](relative-path)
+    text = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", repl_wikilink_with_text, text)
+
+    # [[Target]] → - [Target]({{ '/notes/..../File.html' | relative_url }})
     def repl_wikilink(match):
         target = match.group(1)
-        url = note_index.get(target, target.replace(" ", "-"))
-        return f"- [{target}]({url})"
-    text = re.sub(r'\[\[([^\]]+)\]\]', repl_wikilink, text)
+        url = note_index.get(target)
+        if not url:
+            url = "/notes/" + quote(target.replace(" ", "-") + ".html")
+        return f"- [{target}]({{{{ '{url}' | relative_url }}}})"
 
-    # Ensure each list item is on its own line (avoid multiple dashes on one line)
-    text = re.sub(r'(?<!\n)- ', '\n- ', text)
-    # Remove possible double newlines at the start
-    text = text.lstrip('\n')
+    text = re.sub(r"\[\[([^\]]+)\]\]", repl_wikilink, text)
+
+    # Ensure each list item is on its own line
+    # Insert a newline before any '- ' that doesn't already start a line
+    text = re.sub(r"(?<!\n)- ", "\n- ", text)
+    # Trim leading newlines
+    text = text.lstrip("\n")
     return text
 
 def process_file(path, note_index):
