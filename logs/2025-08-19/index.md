@@ -21,3 +21,5 @@ permalink: /logs/2025-08-19/
 - CSS Revision will start soon.
 
 ---
+
+[← Previous]({{site.baseurl}}/logs/2025-07-27/) | [Next →]({{site.baseurl}}/logs/2025-08-20/)
