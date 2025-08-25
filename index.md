@@ -3,11 +3,9 @@ layout: default
 title: Hello Devs 📓
 ---
 
-<!-- markdownlint-disable MD033 -->
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-<span id="typed-welcome"></span>
-<!-- markdownlint-enable MD033 -->
+<span id="typed-welcome">Welcome to my public developer log. I document my progress, projects, learning experiences, and reflections as I build and improve my skills in software engineering, AI, and development tools.</span>
 
 ---
 
@@ -27,7 +25,6 @@ title: Hello Devs 📓
 ## 🎯 Why This Devlog Exists
 
 I believe in **learning in public**.
-
 This devlog helps me:
 
 - Track my progress consistently
