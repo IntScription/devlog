@@ -11,6 +11,7 @@ All my devlog entries, neatly organized.
 ---
 
 ## 📅 2025 Logs
+- [2025-09-12 — Devlog #11]({{site.baseurl}}/logs/2025-09-12/)
 - [2025-09-10 — Devlog #10]({{site.baseurl}}/logs/2025-09-10/)
 - [2025-08-20 — Devlog #9]({{site.baseurl}}/logs/2025-08-20/)
 - [2025-08-19 — Devlog #8]({{site.baseurl}}/logs/2025-08-19/)
