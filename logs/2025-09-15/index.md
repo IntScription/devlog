@@ -40,4 +40,4 @@ for (datatype variable : collection) {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-09-14/)
+[← Previous]({{site.baseurl}}/logs/2025-09-14/) | [Next →]({{site.baseurl}}/logs/2025-09-16/)
