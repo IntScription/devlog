@@ -115,4 +115,4 @@ selector {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-09-23/)
+[← Previous]({{site.baseurl}}/logs/2025-09-23/) | [Next →]({{site.baseurl}}/logs/2025-09-27/)
