@@ -62,4 +62,4 @@ permalink: /logs/2025-09-27/
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-09-25/)
+[← Previous]({{site.baseurl}}/logs/2025-09-25/) | [Next →]({{site.baseurl}}/logs/2025-09-30/)
