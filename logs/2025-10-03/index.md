@@ -49,4 +49,4 @@ The process of arranging text and images in a way that creates a visual connecti
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-09-30/)
+[← Previous]({{site.baseurl}}/logs/2025-09-30/) | [Next →]({{site.baseurl}}/logs/2025-10-04/)
