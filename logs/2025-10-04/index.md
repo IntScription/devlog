@@ -32,4 +32,4 @@ selector:pseudo-class {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-03/)
+[← Previous]({{site.baseurl}}/logs/2025-10-03/) | [Next →]({{site.baseurl}}/logs/2025-10-05/)
