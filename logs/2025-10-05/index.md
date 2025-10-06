@@ -30,4 +30,4 @@ element {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-04/)
+[← Previous]({{site.baseurl}}/logs/2025-10-04/) | [Next →]({{site.baseurl}}/logs/2025-10-06/)
