@@ -36,4 +36,4 @@ div {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-05/)
+[← Previous]({{site.baseurl}}/logs/2025-10-05/) | [Next →]({{site.baseurl}}/logs/2025-10-07/)
