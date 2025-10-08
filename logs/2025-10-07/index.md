@@ -99,4 +99,4 @@ A structure used by screen readers to interpret and interact with the content on
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-06/)
+[← Previous]({{site.baseurl}}/logs/2025-10-06/) | [Next →]({{site.baseurl}}/logs/2025-10-08/)
