@@ -38,4 +38,4 @@ a[href] {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-08/)
+[← Previous]({{site.baseurl}}/logs/2025-10-08/) | [Next →]({{site.baseurl}}/logs/2025-10-11/)
