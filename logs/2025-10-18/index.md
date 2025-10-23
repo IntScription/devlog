@@ -77,4 +77,4 @@ if (age !== null) {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-12/)
+[← Previous]({{site.baseurl}}/logs/2025-10-12/) | [Next →]({{site.baseurl}}/logs/2025-10-23/)
