@@ -26,8 +26,8 @@ console.log(repeatedWord);  // Output: "Hello!Hello!Hello!"
 
 ## 🔥 What's Next
 
-- Boolean and Numbers.
+- Boolean and Numbers
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-18/)
+[← Previous]({{site.baseurl}}/logs/2025-10-18/) | [Next →]({{site.baseurl}}/logs/2025-10-24/)
