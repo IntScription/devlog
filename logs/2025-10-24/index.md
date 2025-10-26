@@ -36,4 +36,4 @@ console.log(typeof divisionResult); // number
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-23/)
+[← Previous]({{site.baseurl}}/logs/2025-10-23/) | [Next →]({{site.baseurl}}/logs/2025-10-26/)
