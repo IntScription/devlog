@@ -52,4 +52,4 @@ console.log((3.14550).toFixed(3));  // Output: "3.146"
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-24/)
+[← Previous]({{site.baseurl}}/logs/2025-10-24/) | [Next →]({{site.baseurl}}/logs/2025-10-29/)
