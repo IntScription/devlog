@@ -36,4 +36,4 @@ const greetings = (name) => {
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-26/)
+[← Previous]({{site.baseurl}}/logs/2025-10-26/) | [Next →]({{site.baseurl}}/logs/2025-10-30/)
