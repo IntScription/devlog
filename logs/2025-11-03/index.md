@@ -97,4 +97,4 @@ console.log(rest);   // ["orange", "mango", "kiwi"]
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-10-31/)
+[← Previous]({{site.baseurl}}/logs/2025-10-31/) | [Next →]({{site.baseurl}}/logs/2025-11-05/)
