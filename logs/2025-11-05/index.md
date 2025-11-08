@@ -40,4 +40,4 @@ console.log(index); // -1
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-11-03/)
+[← Previous]({{site.baseurl}}/logs/2025-11-03/) | [Next →]({{site.baseurl}}/logs/2025-11-08/)
