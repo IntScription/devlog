@@ -85,4 +85,4 @@ console.log(userObject);
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-11-10/)
+[← Previous]({{site.baseurl}}/logs/2025-11-10/) | [Next →]({{site.baseurl}}/logs/2025-11-16/)
