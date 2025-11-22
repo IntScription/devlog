@@ -43,4 +43,4 @@ console.log(sum); // 6
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-11-18/)
+[← Previous]({{site.baseurl}}/logs/2025-11-18/) | [Next →]({{site.baseurl}}/logs/2025-11-22/)
