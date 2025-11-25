@@ -28,4 +28,4 @@ var args = [...arguments];
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-11-22/)
+[← Previous]({{site.baseurl}}/logs/2025-11-22/) | [Next →]({{site.baseurl}}/logs/2025-11-25/)
