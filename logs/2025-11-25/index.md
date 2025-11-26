@@ -42,4 +42,4 @@ git commit
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-11-24/)
+[← Previous]({{site.baseurl}}/logs/2025-11-24/) | [Next →]({{site.baseurl}}/logs/2025-11-26/)
