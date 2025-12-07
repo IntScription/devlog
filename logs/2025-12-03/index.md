@@ -79,4 +79,4 @@ import anyName from './module.js';
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-12-02/)
+[← Previous]({{site.baseurl}}/logs/2025-12-02/) | [Next →]({{site.baseurl}}/logs/2025-12-07/)
