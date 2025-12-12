@@ -25,7 +25,7 @@ All my devlog entries, organized by month.
       {%- if current_month != "" -%}</ul></div>{%- endif -%}
     </details>
     {%- endif -%}
-    <details open class="archive-year">
+    <details class="archive-year">
       <summary>{{ year }}</summary>
     {%- assign current_year = year -%}
     {%- assign current_month = "" -%}
