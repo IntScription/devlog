@@ -3,7 +3,6 @@ layout: minima
 ---
 {% include head-custom.html %}
 
-<a href="#main-content" class="skip-link">Skip to main content</a>
 <div class="gradient-side left"></div>
 <div class="gradient-side right"></div>
 
@@ -27,58 +26,23 @@ layout: minima
 </header>
 
 <div class="main-container">
-  <main class="custom-main" id="main-content">
+  <main class="custom-main">
     {% if page.url contains '/logs/' %}
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
-      <ol itemscope itemtype="https://schema.org/BreadcrumbList">
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a itemprop="item" href="{{ '/' | relative_url }}"><span itemprop="name">Home</span></a>
-          <meta itemprop="position" content="1" />
-        </li>
-        <li aria-hidden="true"> / </li>
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a itemprop="item" href="{{ '/archive/' | relative_url }}"><span itemprop="name">Archive</span></a>
-          <meta itemprop="position" content="2" />
-        </li>
-        <li aria-hidden="true"> / </li>
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <span itemprop="name" aria-current="page">{{ page.title }}</span>
-          <meta itemprop="position" content="3" />
-        </li>
-      </ol>
+    <nav class="breadcrumbs">
+      <a href="{{ '/' | relative_url }}">Home</a> /
+      <a href="{{ '/archive/' | relative_url }}">Archive</a> /
+      <span aria-current="page">{{ page.title }}</span>
     </nav>
     {% endif %}
     {{ content }}
     {% if page.url contains '/logs/' %}
     <div class="log-backlinks">
-      {% assign logs = site.pages | where_exp:"p","p.url contains '/logs/'" | sort: "url" %}
-      {% for p in logs %}
-        {% if p.url == page.url %}
-          {% assign current_index = forloop.index0 %}
-          {% assign prev_index = current_index | minus: 1 %}
-          {% assign next_index = current_index | plus: 1 %}
-          {% if prev_index >= 0 %}
-            {% assign prev_log = logs[prev_index] %}
-            <a href="{{ prev_log.url | relative_url }}" rel="prev">← Previous</a>
-          {% endif %}
-          {% if prev_index >= 0 and next_index < logs.size %} | {% endif %}
-          {% if next_index < logs.size %}
-            {% assign next_log = logs[next_index] %}
-            <a href="{{ next_log.url | relative_url }}" rel="next">Next →</a>
-          {% endif %}
-          {% break %}
-        {% endif %}
-      {% endfor %}
+      <a href="{{ '/' | relative_url }}">← Back to Home</a> |
+      <a href="{{ '/archive/' | relative_url }}">Back to Archive</a>
     </div>
     {% endif %}
   </main>
 </div>
-
-<button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top">
-  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M18 15l-6-6-6 6"/>
-  </svg>
-</button>
 
 <footer class="custom-footer">
   <div class="footer-title">Connect With Me</div>
@@ -93,7 +57,6 @@ layout: minima
 </footer>
 
 <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
 {% if page.url == '/' or page.url == '/index.html' %}
 <script src="{{ '/assets/js/typed-home.js' | relative_url }}"></script>
 {% endif %} 
