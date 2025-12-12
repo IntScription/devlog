@@ -7,6 +7,8 @@
       theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
     }
     root.setAttribute('data-theme', theme);
+    // Helps browsers pick the right palette immediately to reduce flicker
+    root.style.colorScheme = theme === 'light' ? 'light' : 'dark';
   })();
 </script>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
