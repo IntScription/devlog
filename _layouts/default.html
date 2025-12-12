@@ -27,7 +27,20 @@ layout: minima
 
 <div class="main-container">
   <main class="custom-main">
+    {% if page.url contains '/logs/' %}
+    <nav class="breadcrumbs">
+      <a href="{{ '/' | relative_url }}">Home</a> /
+      <a href="{{ '/archive/' | relative_url }}">Archive</a> /
+      <span aria-current="page">{{ page.title }}</span>
+    </nav>
+    {% endif %}
     {{ content }}
+    {% if page.url contains '/logs/' %}
+    <div class="log-backlinks">
+      <a href="{{ '/' | relative_url }}">← Back to Home</a> |
+      <a href="{{ '/archive/' | relative_url }}">Back to Archive</a>
+    </div>
+    {% endif %}
   </main>
 </div>
 
