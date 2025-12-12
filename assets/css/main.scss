@@ -205,6 +205,16 @@ a {
 a:hover {
   color: var(--accent3);
 }
+.archive-year > summary {
+  cursor: pointer;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+}
+.archive-year > summary:hover {
+  color: var(--accent3);
+}
 code, pre {
   background: var(--border);
   color: var(--text);
@@ -441,4 +451,27 @@ pre code { background: none; padding: 0; }
 body, .main-container, .custom-header, .custom-footer {
   position: relative;
   z-index: 1;
+}
+
+/* Archive year dropdown styling */
+.archive-year summary {
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--accent);
+  padding: 0.5em 0;
+  margin-top: 1em;
+  transition: color 0.2s;
+}
+.archive-year summary:hover {
+  color: var(--accent3);
+}
+.archive-month {
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+}
+.archive-month h3 {
+  font-size: 1.1rem;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
 } 
