@@ -28,4 +28,4 @@ A REPL (Read-Eval-Print Loop) is an interactive loop that forms the core of a sh
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-12-03/)
+[← Previous]({{site.baseurl}}/logs/2025-12-03/) | [Next →]({{site.baseurl}}/logs/2025-12-12/)
