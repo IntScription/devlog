@@ -12,3 +12,25 @@
   })();
 </script>
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+{% if page.url %}
+<link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace: '/index.html', '/' }}">
+{% endif %}
+{% if page.url contains '/logs/' %}
+  {% assign logs = site.pages | where_exp:"p","p.url contains '/logs/'" | sort: "url" %}
+  {% for p in logs %}
+    {% if p.url == page.url %}
+      {% assign current_index = forloop.index0 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      {% assign next_index = current_index | plus: 1 %}
+      {% if prev_index >= 0 %}
+        {% assign prev_log = logs[prev_index] %}
+        <link rel="prefetch" href="{{ prev_log.url | relative_url }}">
+      {% endif %}
+      {% if next_index < logs.size %}
+        {% assign next_log = logs[next_index] %}
+        <link rel="prefetch" href="{{ next_log.url | relative_url }}">
+      {% endif %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
