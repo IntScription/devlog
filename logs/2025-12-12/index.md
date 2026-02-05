@@ -36,4 +36,4 @@ crypto.getRandomValues(arr);
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-12-07/)
+[← Previous]({{site.baseurl}}/logs/2025-12-07/) | [Next →]({{site.baseurl}}/logs/2026-02-05/)
