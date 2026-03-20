@@ -108,4 +108,4 @@ console.log(hasSomeEvenNumbers); // true
 
 ---
 
-[← Previous]({{site.baseurl}}/logs/2025-12-12/)
+[← Previous]({{site.baseurl}}/logs/2025-12-12/) | [Next →]({{site.baseurl}}/logs/2026-03-20/)
