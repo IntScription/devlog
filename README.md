@@ -46,6 +46,25 @@ devlog/
 
 ---
 
+## ✍️ Writing a New Entry
+
+Give each entry a real `title:` in its front matter, e.g.:
+
+```yaml
+---
+layout: default
+permalink: /logs/2026-03-20/
+title: Frontend Frameworks & Build Tools Explained
+---
+```
+
+Without it, the title defaults to blank and both the homepage's "Recent
+Devlog Entries" list and the archive page fall back to the generic label
+"Devlog" — fine for one entry, useless once there are dozens of
+same-looking date links.
+
+---
+
 ## 🚀 Quick Start (Local Dev)
 
 ```bash
@@ -62,8 +81,10 @@ Then visit [http://localhost:4000/devlog/](http://localhost:4000/devlog/) in you
 The `scripts/` folder contains Python automation tools:
 
 - **`fix_navigation.py`** — Fixes navigation links in all devlog entries
-- **`fix_markdownlint.py`** — Automatically corrects markdownlint formatting errors
+- **`update_recent.py`** — Refreshes the "Recent Devlog Entries" list on the homepage
+- **`fix_markdownlint.py`** — Corrects markdownlint formatting errors (run manually; not wired into the pre-commit hook)
 - **`convert_wikilinks.py`** — Converts Obsidian wiki links (`[[Link]]`) to standard Markdown
 - **`add_front_matter.py`** — Adds Jekyll front matter to notes for proper rendering
 
-These scripts run automatically via Git hooks to maintain code quality.
+`fix_navigation.py` and `update_recent.py` run automatically via the
+pre-commit Git hook. The other scripts are run manually as needed.

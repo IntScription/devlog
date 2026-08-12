@@ -1,7 +1,13 @@
----
-layout: minima
----
-{% include head-custom.html %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  {%- feed_meta -%}
+  {% include head-custom.html %}
+</head>
+<body>
 
 <div class="gradient-side left"></div>
 <div class="gradient-side right"></div>
@@ -59,4 +65,7 @@ layout: minima
 <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
 {% if page.url == '/' or page.url == '/index.html' %}
 <script src="{{ '/assets/js/typed-home.js' | relative_url }}"></script>
-{% endif %} 
+{% endif %}
+
+</body>
+</html>

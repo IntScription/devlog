@@ -6,10 +6,9 @@ baseurl: "/devlog"
 url: "https://intscription.github.io"
 
 plugins:
-  - jekyll-paginate
-
-paginate: 5
-paginate_path: "/page:num/"
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
 minima:
   social_links:
@@ -28,6 +27,7 @@ exclude:
   - .gitignore
   - .DS_Store
   - notes
+  - scripts
 
 include:
   - logs
